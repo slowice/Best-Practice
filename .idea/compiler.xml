@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common_utils" />
+        <module name="data_process_demo" />
+        <module name="exception_handler_demo" />
+        <module name="multipartfile-upload" />
+        <module name="mybatis_demo" />
+        <module name="pagehelper-demo" />
+        <module name="proxy" />
+        <module name="shiro_demo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>design_pattern</module>
+        <module>multipartfile-upload</module>
+        <module>mybatis_demo</module>
+        <module>pagehelper-demo</module>
+        <module>shiro_demo</module>
+    </modules>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>xb</groupId>
+    <artifactId>best-practice</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement>
+            <dependencies>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-dependencies</artifactId>
+                    <version>2.1.0.RELEASE</version>
+                    <!--这两句话很重要，要不然会爆红-->
+                    <type>pom</type>
+                    <scope>import</scope>
+                </dependency>
+            </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <!--可以让maven将boot项目打包为可执行程序-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <!--避免每次maven update后程序变为java1.5-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

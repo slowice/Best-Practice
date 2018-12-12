@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" th:src="@{/jquery-2.2.4.min.js}" ></script>
+    <script type="text/javascript" >
+        //字符串数组上传
+        function simpleArr() {
+            var data = ["1","2","3"]
+            $.ajax({
+                url:"/simpleArr",
+                traditional:true,
+                data:{"data":data},
+                success:function (data) {
+                    console.log(data)
+                }
+            })
+        }
+
+
+        //对象数组上传
+        var person1 = new Object();
+        person1.id="1"
+        person1.name="a"
+        var person2 = new Object();
+        person2.id="2"
+        person2.name="b"
+        var personArr= new Array();
+        personArr.push(person1)
+        personArr.push(person2)
+
+        function objArr() {
+            $.ajax({
+                url:"/objArr",
+                //dataType: "json",
+                //contentType:"application/json",
+                type:"POST",
+                data:{"persons":JSON.stringify(personArr)},
+                success:function (data) {
+                    console.log(data)
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+    <button onclick="simpleArr();">simpleArr</button>
+
+    <button onclick="objArr();">objArr</button>
+</body>
+</html>

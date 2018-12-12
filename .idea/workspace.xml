@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="data_process_demo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04f71f99-3504-425d-850c-4c7a208e827b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shiro_demo/src/test/java/JdbcRealmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/bean/ProductDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/controller/ImgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/dao/ProductDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/mapper/ProductDetailMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/css/wangEditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/CHANGES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/adapters/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/build-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/es-mx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/sr-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/about/dialogs/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/clipboard/dialogs/paste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/dialog/dialogDefinition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/icons_hidpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/image/dialogs/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/image/images/noimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/link/dialogs/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/link/dialogs/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/link/images/anchor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/link/images/hidpi/anchor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/magicline/images/hidpi/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/magicline/images/icon-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/magicline/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/pastefromword/filter/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/scayt/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/scayt/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/scayt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/scayt/dialogs/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/scayt/dialogs/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/scayt/dialogs/toolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/table/dialogs/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/tableselection/styles/tableselection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/widget/images/handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/wsc/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/wsc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/wsc/dialogs/ciframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/wsc/dialogs/wsc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/css/samples.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/img/github-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/img/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/img/header-separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/img/navigation-tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/js/sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/js/sf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/appendto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/assets/inlineall/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/assets/posteddata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/assets/sample.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/assets/uilanguages/languages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/datafiltering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/dialog/assets/my_dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/dialog/dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/divreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/enterkey/enterkey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/htmlwriter/outputforflash.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/htmlwriter/outputhtml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/inlineall.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/inlinebycode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/inlinetextarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/jquery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/magicline/magicline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/readonly.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/replacebyclass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/replacebycode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/sample.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/sample_posteddata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/tabindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/toolbar/toolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/uicolor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/uilanguages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/wysiwygarea/fullpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/old/xhtmlstyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/font/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/font/fontello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/dialog_ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/dialog_ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/dialog_iequirks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/editor_gecko.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/editor_ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/editor_ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/editor_iequirks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/icons_hidpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/images/hidpi/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/images/lock-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/images/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/images/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/images/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/skins/moono-lisa/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/ckeditor/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/js/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/customer/base/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/customer/base/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/customer/base/statisc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/customer/content/featured.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/customer_product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro_demo/src/test/java/IniRealmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_demo/src/test/java/IniRealmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro_demo/src/test/java/SimpleShiroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_demo/src/test/java/SimpleShiroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/mapper/ProductInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/mapper/ProductInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/component/base/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/component/base/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/component/base/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/component/base/offset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/component/base/statisc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/component/homepage/feature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/component/product/productdetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/component/product/productlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/customer_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/customer_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/manage_product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/manage_product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/manage_product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/templates/manage_product_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/MallApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/MallApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/bean/ProductInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/bean/ProductInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/bean/requestObj/ProductInfoRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/bean/requestObj/ProductInfoRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/bean/responseObj/ProductInfoReponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/bean/responseObj/ProductInfoReponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/common/Enums.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/common/Enums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/controller/HomePageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/controller/HomePageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/controller/ManageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/controller/ManageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/dao/ProductInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/dao/ProductInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/dao/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/dao/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/out/artifacts/mall_war_exploded/WEB-INF/classes/xb/mall/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/MallApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/MallApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/bean/ContactUs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/bean/requestObj/ProductInfoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/bean/requestObj/ProductInfoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/bean/responseObj/ProductInfoReponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/bean/responseObj/ProductInfoReponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/common/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/common/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/common/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/common/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/controller/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/controller/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/controller/ManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/controller/ManageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/dao/ProductInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/dao/ProductInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/dao/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/service/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/service/ImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/service/ImageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/service/ImageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/java/xb/mall/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/webuploader/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/assets/webuploader/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/static/commonJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/static/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/base/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/base/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/base/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/base/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/base/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/base/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/base/offset.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/base/offset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/base/statisc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/base/statisc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/homepage/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/homepage/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/homepage/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/homepage/banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/homepage/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/homepage/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/homepage/feature.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/homepage/feature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/homepage/middleads.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/homepage/middleads.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/product/productdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/product/productdetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/product/productlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/component/manage/product/productlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/customer_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/customer_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_homepage_aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_homepage_aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_homepage_banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_homepage_banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_homepage_contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_homepage_contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_homepage_features.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_homepage_features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_homepage_middleads.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_homepage_middleads.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/main/resources/templates/manage_product_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall/src/test/java/xb/mall/service/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mall/src/test/java/xb/mall/service/ProductServiceTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/pagehelper-demo/target/" />
+    <ignored path="$PROJECT_DIR$/multipartfile-upload/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_demo/target/" />
+    <ignored path="$PROJECT_DIR$/design_pattern/target/" />
+    <ignored path="$PROJECT_DIR$/design_pattern/proxy/target/" />
+    <ignored path="$PROJECT_DIR$/shiro_demo/target/" />
+    <ignored path="$PROJECT_DIR$/shiro_test/target/" />
+    <ignored path="$PROJECT_DIR$/data_process_demo/target/" />
+    <ignored path="$PROJECT_DIR$/exception_handler_demo/target/" />
+    <ignored path="$PROJECT_DIR$/common_utils/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="best_practice: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-233172173">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="26" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="17" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1-SNAPSHOT" value="1" />
+          <entry key="class" value="10" />
+          <entry key="dtd" value="1" />
+          <entry key="html" value="8" />
+          <entry key="iml" value="1" />
+          <entry key="ini" value="2" />
+          <entry key="java" value="115" />
+          <entry key="js" value="1" />
+          <entry key="menu" value="1" />
+          <entry key="pom" value="7" />
+          <entry key="properties" value="20" />
+          <entry key="roles_permissions" value="1" />
+          <entry key="routines" value="1" />
+          <entry key="schema_privileges" value="1" />
+          <entry key="schemata" value="1" />
+          <entry key="sql" value="9" />
+          <entry key="table_privileges" value="1" />
+          <entry key="tables" value="2" />
+          <entry key="tablespaces" value="1" />
+          <entry key="tbl_user" value="3" />
+          <entry key="test" value="5" />
+          <entry key="test_role_permissons" value="1" />
+          <entry key="test_uers" value="1" />
+          <entry key="test_user_roles" value="1" />
+          <entry key="user" value="3" />
+          <entry key="user_privileges" value="1" />
+          <entry key="user_roles" value="1" />
+          <entry key="users" value="3" />
+          <entry key="xml" value="108" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="10" />
+          <entry key="DTD" value="1" />
+          <entry key="Database Element" value="28" />
+          <entry key="HTML" value="8" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="113" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="20" />
+          <entry key="Scratch" value="11" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="115" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="108" />
+          <entry key="dummy" value="25" />
+          <entry key="html" value="586" />
+          <entry key="ini" value="70" />
+          <entry key="java" value="3917" />
+          <entry key="properties" value="110" />
+          <entry key="sql" value="286" />
+          <entry key="txt" value="41" />
+          <entry key="xml" value="828" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="586" />
+          <entry key="JAVA" value="3917" />
+          <entry key="PLAIN_TEXT" value="136" />
+          <entry key="Properties" value="110" />
+          <entry key="SQL" value="87" />
+          <entry key="Scratch" value="307" />
+          <entry key="XML" value="828" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/08dd8261-139f-4af6-ac75-3c1ab22b12b7/best_practice.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/users">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shiro_demo/src/test/java/JdbcRealmTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro_demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro_demo/src/test/java/IniRealmTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/test_user_roles">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/user_roles">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/roles_permissions">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/tbl_user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_demo/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-mapper" />
+        <option value="mybatis-generator-config" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pack</find>
+      <find>lom</find>
+      <find>dataTransport</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/service/Service.java" />
+        <option value="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/static_proxy/Test.java" />
+        <option value="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/dynamic_proxy/jdkProxy/JdkProxyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/static_proxy/StaticProxyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/dynamic_proxy/jdkProxy/jdkProxyTest.java" />
+        <option value="$PROJECT_DIR$/design_pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/design_pattern/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/dynamic_proxy/cglibProxy/CglibProxyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/dynamic_proxy/cglibProxy/Test.java" />
+        <option value="$PROJECT_DIR$/shiro_demo/src/test/java/test/ShiroTest.java" />
+        <option value="$PROJECT_DIR$/pagehelper-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pagehelper-demo/src/main/java/xb/pagehelperdemo/bean/Test.java" />
+        <option value="$PROJECT_DIR$/pagehelper-demo/src/main/java/xb/pagehelperdemo/mapper/TestMapper.java" />
+        <option value="$PROJECT_DIR$/pagehelper-demo/src/main/resources/mapper/TestMapper.xml" />
+        <option value="$PROJECT_DIR$/pagehelper-demo/src/main/java/xb/pagehelperdemo/service/TestService.java" />
+        <option value="$PROJECT_DIR$/pagehelper-demo/src/main/java/xb/pagehelperdemo/service/impl/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pagehelper-demo/src/test/java/xb/pagehelperdemo/service/impl/TestServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/shiro_demo/src/test/java/ShiroTest.java" />
+        <option value="$PROJECT_DIR$/shiro_demo/src/test/resource/user.ini" />
+        <option value="$PROJECT_DIR$/mybatis_demo/src/main/java/xb/mybatis_demo/service/UserService.java" />
+        <option value="$PROJECT_DIR$/multipartfile-upload/src/main/java/xb/multipartfileupload/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/mybatis_demo/src/main/java/xb/mybatis_demo/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/mybatis_demo/src/test/java/xb/mybatis_demo/dao/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_demo/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/data_process_demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/DataProcessDemoApplication.java" />
+        <option value="$PROJECT_DIR$/data_process_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/exception_handler_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/exception_handler_demo/src/main/resources/templates/success.html" />
+        <option value="$PROJECT_DIR$/exception_handler_demo/src/main/resources/templates/exception.html" />
+        <option value="$PROJECT_DIR$/exception_handler_demo/src/main/java/xb/exception_handler_demo/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/exception_handler_demo/src/main/java/xb/exception_handler_demo/handler/MyExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/exception_handler_demo/src/main/java/xb/exception_handler_demo/handler/MyHandlerInterceptor.java" />
+        <option value="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/bean/Person.java" />
+        <option value="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/data_process_demo/src/main/resources/templates/test.html" />
+        <option value="$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/FileUtil.java" />
+        <option value="$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/ImageUtil.java" />
+        <option value="$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/vo/ResultVOUtil.java" />
+        <option value="$PROJECT_DIR$/common_utils/pom.xml" />
+        <option value="$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/multipartfile-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro_demo/src/test/java/SimpleShiroTest.java" />
+        <option value="$PROJECT_DIR$/shiro_demo/src/test/java/IniRealmTest.java" />
+        <option value="$PROJECT_DIR$/shiro_demo/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/08dd8261-139f-4af6-ac75-3c1ab22b12b7/console.sql" />
+        <option value="$PROJECT_DIR$/shiro_demo/src/test/java/JdbcRealmTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/08dd8261-139f-4af6-ac75-3c1ab22b12b7/best_practice.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="best-practice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="proxy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shiro_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shiro_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shiro_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="639" />
+    <option name="y" value="170" />
+    <option name="width" value="1680" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Mybatis</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="best-practice" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pagehelper-demo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="best-practice" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pagehelper-demo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="best-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="best-practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="best-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="best-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="best-practice" type="58d84e3e:PackageViewProjectNode" />
+              <item name="pagehelper-demo" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4488316" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="xb.mybatis_demo.dao" />
+      <recent name="xb.mybatis_demo.service" />
+      <recent name="xb.pagehelperdemo.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$APPLICATION_CONFIG_DIR$/consoles/db" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xb.common_utils.commonUtils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils" />
+      <recent name="$PROJECT_DIR$/data_process_demo/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/mybatis_demo/src/main/resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="simple.service" />
+      <recent name="xb.mybatis_demo.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.JdbcRealmTest.authTest">
+    <configuration name="IniRealmTest.authTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro_demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IniRealmTest" />
+      <option name="METHOD_NAME" value="authTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcRealmTest.authTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro_demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JdbcRealmTest" />
+      <option name="METHOD_NAME" value="authTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleShiroTest.authTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro_demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleShiroTest" />
+      <option name="METHOD_NAME" value="authTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.selectIfCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xb.mybatis_demo.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xb.mybatis_demo.dao" />
+      <option name="MAIN_CLASS_NAME" value="xb.mybatis_demo.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="selectIfCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" factoryName="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="123" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/mybatis_demo" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/mybatis_demo" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="CommonUtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common_utils" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.common_utils.CommonUtilsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProcessDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="data_process_demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.data_process_demo.DataProcessDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionHandlerDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="exception_handler_demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.exception_handler_demo.ExceptionHandlerDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultipartfileUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="multipartfile-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.multipartfileupload.MultipartfileUploadApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis_demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.mybatis_demo.MybatisDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PagehelperDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pagehelper-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.pagehelperdemo.PageHelperDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dataProcess" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="data_process_demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_best-practice" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56987" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="56988" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="data_process_demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.123" />
+      <item itemvalue="Spring Boot.PagehelperDemoApplication" />
+      <item itemvalue="Spring Boot.MultipartfileUploadApplication" />
+      <item itemvalue="Spring Boot.MybatisDemoApplication" />
+      <item itemvalue="Spring Boot.DataProcessDemoApplication" />
+      <item itemvalue="Tomcat Server.dataProcess" />
+      <item itemvalue="Spring Boot.ExceptionHandlerDemoApplication" />
+      <item itemvalue="Spring Boot.CommonUtilsApplication" />
+      <item itemvalue="JUnit.SimpleShiroTest.authTest" />
+      <item itemvalue="JUnit.IniRealmTest.authTest" />
+      <item itemvalue="JUnit.UserMapperTest.selectIfCase" />
+      <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="JUnit.JdbcRealmTest.authTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JdbcRealmTest.authTest" />
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="JUnit.UserMapperTest.selectIfCase" />
+        <item itemvalue="JUnit.IniRealmTest.authTest" />
+        <item itemvalue="JUnit.SimpleShiroTest.authTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04f71f99-3504-425d-850c-4c7a208e827b" name="Default Changelist" comment="" />
+      <created>1541994963639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541994963639</updated>
+      <workItem from="1541994964857" duration="1907000" />
+      <workItem from="1542001618832" duration="3008000" />
+      <workItem from="1542004637850" duration="776000" />
+      <workItem from="1542005418398" duration="614000" />
+      <workItem from="1542006733830" duration="609000" />
+      <workItem from="1542091562288" duration="374000" />
+      <workItem from="1542098550241" duration="653000" />
+      <workItem from="1542099476094" duration="4314000" />
+      <workItem from="1542333664945" duration="11212000" />
+      <workItem from="1542352626788" duration="4729000" />
+      <workItem from="1542357655902" duration="426000" />
+      <workItem from="1542678074250" duration="93000" />
+      <workItem from="1542681113250" duration="1114000" />
+      <workItem from="1542684369095" duration="3394000" />
+      <workItem from="1542693378814" duration="1822000" />
+      <workItem from="1542699561615" duration="605000" />
+      <workItem from="1542785239847" duration="50000" />
+      <workItem from="1542785294123" duration="24000" />
+      <workItem from="1542786414861" duration="3316000" />
+      <workItem from="1542789899929" duration="4303000" />
+      <workItem from="1542856630119" duration="1702000" />
+      <workItem from="1543204904465" duration="2365000" />
+      <workItem from="1543296979915" duration="6154000" />
+      <workItem from="1543389080297" duration="2419000" />
+      <workItem from="1543566131421" duration="5683000" />
+      <workItem from="1544091999016" duration="804000" />
+      <workItem from="1544604223010" duration="152000" />
+    </task>
+    <task id="LOCAL-00001" summary="best-practice series">
+      <created>1542099847153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542099847153</updated>
+    </task>
+    <task id="LOCAL-00002" summary="best-practice series,添加common模块，其它模块会依赖此模块">
+      <created>1543567644764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543567644764</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JdbcRealmTest_authTest - 2018.11.30 at 17h 30m 09s.xml">
+      <configuration name="JdbcRealmTest.authTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcRealmTest_authTest - 2018.11.30 at 17h 30m 49s.xml">
+      <configuration name="JdbcRealmTest.authTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcRealmTest_authTest - 2018.11.30 at 17h 31m 30s.xml">
+      <configuration name="JdbcRealmTest.authTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcRealmTest_authTest - 2018.11.30 at 17h 31m 47s.xml">
+      <configuration name="JdbcRealmTest.authTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcRealmTest_authTest - 2018.11.30 at 17h 33m 41s.xml">
+      <configuration name="JdbcRealmTest.authTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcRealmTest_authTest - 2018.11.30 at 17h 43m 43s.xml">
+      <configuration name="JdbcRealmTest.authTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcRealmTest_authTest - 2018.11.30 at 17h 44m 55s.xml">
+      <configuration name="JdbcRealmTest.authTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcRealmTest_authTest - 2018.11.30 at 17h 45m 19s.xml">
+      <configuration name="JdbcRealmTest.authTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcRealmTest_authTest - 2018.11.30 at 17h 45m 32s.xml">
+      <configuration name="JdbcRealmTest.authTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcRealmTest_authTest - 2018.11.30 at 17h 47m 08s.xml">
+      <configuration name="JdbcRealmTest.authTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62622000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="977" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21611722" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85531133" weight="0.3085847" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8058608" weight="0.34222737" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32946634" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="8" sideWeight="0.497558" weight="0.32946634" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.14468865" side_tool="true" visible="true" weight="0.32946634" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.489011" weight="0.32946634" />
+      <window_info anchor="bottom" id="Problems" order="12" sideWeight="0.496337" weight="0.32946634" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32946634" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.498779" weight="0.32946634" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.50061053" side_tool="true" weight="0.32946634" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" />
+      <window_info anchor="bottom" id="Application Servers" order="18" sideWeight="0.4993895" weight="0.32946634" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32967034" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.2002442" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" weight="0.32967034" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24481075" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7557998" weight="0.35034803" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8095238" weight="0.26450115" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32946634" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061053" side_tool="true" visible="true" weight="0.32946634" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4993895" visible="true" weight="0.32946634" />
+      <window_info anchor="bottom" id="Problems" order="12" sideWeight="0.496337" weight="0.32946634" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32967034" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.2002442" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="best-practice series" />
+    <MESSAGE value="best-practice series,添加common模块，其它模块会依赖此模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="best-practice series,添加common模块，其它模块会依赖此模块" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pagehelper-demo/src/test/java/xb/pagehelperdemo/service/impl/TestServiceImplTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mybatis_demo/src/test/java/xb/mybatis_demo/dao/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_process_demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE.jar!/org/springframework/stereotype/Controller.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/DataProcessDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception_handler_demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception_handler_demo/src/main/resources/templates/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception_handler_demo/src/main/resources/templates/exception.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception_handler_demo/src/main/java/xb/exception_handler_demo/handler/MyExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception_handler_demo/src/main/java/xb/exception_handler_demo/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception_handler_demo/src/main/java/xb/exception_handler_demo/ExceptionHandlerDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exception_handler_demo/src/main/java/xb/exception_handler_demo/handler/MyHandlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/bean/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_process_demo/src/main/resources/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multipartfile-upload/src/main/java/xb/multipartfileupload/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/org/apache/tomcat/util/http/fileupload/FileUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/Enums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/CookieUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/vo/ResultVOUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_process_demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/vo/ResultVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multipartfile-upload/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro_demo/src/test/resource/user.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/SecurityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro_demo/src/test/java/SimpleShiroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/08dd8261-139f-4af6-ac75-3c1ab22b12b7/console_3.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/08dd8261-139f-4af6-ac75-3c1ab22b12b7/console_2.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/08dd8261-139f-4af6-ac75-3c1ab22b12b7/console_1.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/08dd8261-139f-4af6-ac75-3c1ab22b12b7/mall.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="109" lean-forward="true" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multipartfile-upload/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/test_uers" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="38" column="123" lean-forward="true" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/test_role_permissons" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/08dd8261-139f-4af6-ac75-3c1ab22b12b7/best_practice.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/test_user_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/user_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/roles_permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://08dd8261-139f-4af6-ac75-3c1ab22b12b7/schema/best_practice/table/tbl_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro_demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro_demo/src/test/java/IniRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro_demo/src/test/java/JdbcRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>data_process_demo:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4488316" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (pagehelper-demo)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4488316" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4488316" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4488316" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>data_process_demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4488316" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework.boot:spring-boot:2.1.0.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4488316" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
