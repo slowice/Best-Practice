@@ -49,4 +49,10 @@ public interface UserMapper {
     int updateByPrimaryKey(User record);
 
     User selectIfCase(@Param("productId") String productId, @Param("caseId") String caseId);
+
+    void insertBatch(List<User> users);
+
+    List<User> selectBatch(@Param("idList") List<String> userIds);
+
+    List<User> unionAllTest(String userName);
 }
