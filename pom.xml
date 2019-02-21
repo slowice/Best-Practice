@@ -12,6 +12,8 @@
         <module>pagehelper-demo</module>
         <module>shiro_demo</module>
         <module>thread_demo</module>
+        <module>context_demo</module>
+        <module>front_end_study</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>

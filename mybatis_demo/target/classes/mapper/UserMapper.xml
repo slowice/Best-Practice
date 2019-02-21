@@ -64,4 +64,33 @@
       where id = #{productId}
     </if>
   </select>
+
+  <insert id="insertBatch" parameterType="java.util.List">
+    BEGIN
+    <foreach collection="list" item="item" separator=",">
+      INSERT INTO TBL_USER (id, name, age) VALUES (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{age,jdbcType=INTEGER})
+    </foreach>
+    ;END;
+  </insert>
+
+  <select id="selectBatch" resultMap="BaseResultMap" parameterType="java.util.List">
+    select id, name, age
+    from TBL_USER
+    where id in
+    <if test="idList != null and idList.size() > 0">
+      <foreach collection="idList" item="userId" open="(" close=")" separator=",">
+        #{userId}
+      </foreach>
+    </if>
+  </select>
+
+  <select id="unionAllTest" parameterType="string" resultMap="BaseResultMap">
+    select id,username as name
+    from users
+    where username = 'mark'
+    union all
+    select id,username as name
+    from user_roles
+    where username = #{userName,jdbcType=VARCHAR}
+  </select>
 </mapper>
