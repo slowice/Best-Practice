@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xb.mybatis.dao.UserMapperExternal">
+
+  <resultMap id="BaseResultMap" type="bean.User">
+    <id column="id_user" jdbcType="CHAR" property="idUser" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="birthday" jdbcType="TIMESTAMP" property="birthday" />
+    <result column="pid" jdbcType="CHAR" property="pid" />
+    <!--<result column="mobile_phone" jdbcType="VARCHAR" property="mobilePhone" />-->
+  </resultMap>
+
+  <resultMap id="UserRelation" type="dto.UserDTO" extends="BaseResultMap">
+    <!--<collection property="roleList" column="userId = id_user" select="queryRoles"/>-->
+    <!--<association property="partner" resultMap="BaseResultMap"/>-->
+  </resultMap>
+
+<!--
+  复杂查询ResultMap
+  construct要在id上面,顺序要保持一致
+-->
+  <resultMap id="complexResultMap" type="dto.UserDTO" extends="BaseResultMap">
+    <!--要指定javaType，否则默认object-->
+    <constructor>
+      <idArg  column="id_user" javaType="String"/>
+      <arg column="name" javaType="String"/>
+    </constructor>
+    <id property="idUser" column="id_user"/>
+    <result property="name" column="name"/>
+    <result property="birthday" column="birthday"/>
+
+    <association property="userRelation" javaType="bean.UserRelation">
+      <id property="userId" column="id_user" />
+      <result property="addressId" column="address_id" />
+    </association>
+
+    <collection property="roleList" ofType="bean.UserRole">
+      <id property="idUserRole" column="id_user_role"/>
+      <result property="roleName" column="role_name" />
+    </collection>
+
+    <discriminator javaType="int" column="type">
+      <case value="1" resultMap="type1" />
+      <case value="2" resultMap="type2" />
+    </discriminator>
+  </resultMap>
+
+  <resultMap id="type1" type="dto.UserDTO" extends="complexResultMap"/>
+
+  <resultMap id="type2" type="dto.UserDTO">
+    <id property="idUser" column="id_user"/>
+  </resultMap>
+<!--
+  批量新增
+-->
+  <insert id="insertBatch" parameterType="bean.User">
+    insert into xb_user (id_user, name, birthday) values
+    <foreach item="item" collection="userList" separator=",">
+      (#{item.idUser}, #{item.name}, #{item.birthday})
+    </foreach>
+  </insert>
+
+<!--
+  批量删除
+-->
+  <insert id="deleteBatch" parameterType="bean.User">
+    delete from xb_user
+    where id_user in
+    <foreach item="item" collection="userList" separator="," open="(" close=")">
+      (#{item.idUser})
+    </foreach>
+  </insert>
+
+<!--
+  批量查找
+-->
+  <select id="selectBatchById" resultType="bean.User">
+    select * from xb_user
+    where id_user in
+    <foreach item="item" collection="userList" separator="," open="(" close=")">
+      (#{item.idUser})
+    </foreach>
+  </select>
+
+<!--
+#和$的区别
+-->
+  <select id="sharpSelect" resultType="dto.UserDTO">
+    select * from xb_user where id_user = #{idUser}
+  </select>
+  <select id="dollorSelect" resultType="dto.UserDTO">
+    select * from xb_user where id_user = '${idUser}'
+  </select>
+
+
+<!--
+  union测试
+-->
+  <select id="unionTest" resultMap="BaseResultMap">
+    select * from xb_user where name = 'abg1'
+    union all
+    select * from xb_user where name = 'abg2'
+  </select>
+
+<!--
+动态语言查询
+-->
+  <select id="ifTest" resultMap="BaseResultMap" parameterType="dto.UserRequest">
+    select * from xb_user
+    where 1 = 1
+    <if test="id != null">
+      and id_user = #{id}
+    </if>
+    <if test="name != null">
+      and name = #{name}
+    </if>
+    <if test="typeList != null and typeList.contains('1') ">
+    and type = 1
+    </if>
+  </select>
+
+
+  <select id="queryRoles" resultType="bean.UserRole">
+    select * from xb_user_role where user_id = #{userId}
+  </select>
+
+<!--
+mybatis有命名匹配机制，可以驼峰自动转换
+-->
+  <select id="autoMappingTest" parameterType="bean.User" resultMap="UserRelation">
+    select
+           user.name,
+           user.mobile_phone
+    from XB_USER user
+    WHERE user.id_user = #{idUser}
+  </select>
+
+  <select id="complexQueryTest" resultMap="complexResultMap">
+    select
+        user.id_user,
+        user.name,
+        user.birthday,
+        user.type,
+        relation.address_id,
+        role.role_name,
+        role.id_user_role
+    from xb_user user
+    join xb_user_relation relation on user.id_user = relation.user_id
+    join xb_user_role role on relation.role_id = role.id_user_role
+  </select>
+
+<!--
+分页查询测试
+-->
+  <select id="selectAllPaged" resultType="dto.UserDTO">
+    select * from xb_user
+  </select>
+
+  <resultMap id="testMap" type="dto.UserDTO">
+    <result property="name" column="name"/>
+    <collection property="userList" ofType="bean.User">
+      <result property="name" column="subName" />
+    </collection>
+    <collection property="roleList" ofType="bean.UserRole">
+      <result property="roleName" column="role_name" />
+    </collection>
+  </resultMap>
+
+  <select id="test" resultMap="testMap">
+    select u.name,role.role_name,subu.name as subName
+    from xb_user u ,xb_user subu,xb_user_role role, xb_user_relation relation
+    where u.id_user = subu.pid and u.id_user = relation.user_id and role.id_user_role = relation.role_id
+    union all
+    select u.name,role.role_name,subu.name as subName
+    from xb_user u ,xb_user subu,xb_user_role role, xb_user_relation relation
+    where u.id_user = subu.pid and u.id_user = relation.user_id and role.id_user_role = relation.role_id
+    and relation.user_id IS NULL
+  </select>
+</mapper>

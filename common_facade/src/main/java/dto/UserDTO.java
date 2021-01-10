@@ -11,7 +11,7 @@ import java.util.List;
 @Data
 @Slf4j
 /**
- * User传输类，除了包含User表元数据意外，还包含其它关联数据
+ * User传输类，除了包含User表元数据以外，还包含其它关联数据
  */
 public class UserDTO extends User {
     public UserDTO(){
@@ -29,4 +29,27 @@ public class UserDTO extends User {
 
     private List<User> userList;
 
+    public UserRelation getUserRelation() {
+        return userRelation;
+    }
+
+    public void setUserRelation(UserRelation userRelation) {
+        this.userRelation = userRelation;
+    }
+
+    public List<UserRole> getRoleList() {
+        return roleList;
+    }
+
+    public void setRoleList(List<UserRole> roleList) {
+        this.roleList = roleList;
+    }
+
+    public List<User> getUserList() {
+        return userList;
+    }
+
+    public void setUserList(List<User> userList) {
+        this.userList = userList;
+    }
 }

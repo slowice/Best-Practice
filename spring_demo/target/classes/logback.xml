@@ -1,0 +1,88 @@
+<configuration>
+    <property name="LOG_FILE" value="${BUILD_FOLDER:-build}/123"/>
+    <property name="LOG_FILE2" value="${BUILD_FOLDER:-build}/1234"/>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_FILE}.json</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>logFile.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- keep 30 days' worth of history capped at 3GB total size -->
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>3GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--logstash-->
+    <!--<appender name="logstash" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+        <!--<file>${LOG_FILE2}.json</file>-->
+        <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+            <!--&lt;!&ndash; daily rollover &ndash;&gt;-->
+            <!--<fileNamePattern>logFile2.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+            <!--&lt;!&ndash; keep 30 days' worth of history capped at 3GB total size &ndash;&gt;-->
+            <!--<maxHistory>30</maxHistory>-->
+            <!--<totalSizeCap>3GB</totalSizeCap>-->
+        <!--</rollingPolicy>-->
+        <!--<encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">-->
+            <!--<pattern>-->
+                <!--{-->
+                <!--"severity": "%level",-->
+                <!--"service": "123",-->
+                <!--"trace": "%X{X-B3-Traceid:-}",-->
+                <!--"span": "%X{X-B3-Spanid:-}",-->
+                <!--"exportable": "%X{X-Span-Export:一} ”,-->
+                <!--"pid": "${PIO:-}",-->
+                <!--"thread": "%thread",-->
+                <!--"class": "%logger{40}",-->
+                <!--"rest": "%message"-->
+                <!--}-->
+            <!--</pattern>-->
+        <!--</encoder>-->
+    <!--</appender>-->
+
+    <!--region encoder-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!--@see https://logback.qos.ch/manual/layouts.html-->
+            <pattern>%9.9relative [%10.10thread] %date{yyyy-MM-dd hh:mm:ss} %highlight(%-5level) %40.40logger{35} %yellow(---) %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <!--color contains :"%black", "%red", "%green","%yellow","%blue", "%magenta","%cyan", "%white", "%gray",
+  "%boldRed","%boldGreen", "%boldYellow", "%boldBlue", "%boldMagenta""%boldCyan", "%boldWhite" and "%highlight" -->
+    <appender name="STDOUT_RED" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%red(%-4relative [%thread] %-5level %logger{35} - %msg) %n</pattern>
+        </encoder>
+    </appender>
+
+    <!--根据SampleFilter来过滤日志--><appender name="STDOUT_FILTER" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="xb.log.SampleFilter"></filter>
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <!--根据evaluator来打印caller-->
+    <!--<evaluator name="DISP_CALLER_EVAL">-->
+    <!--</evaluator>-->
+    <appender name="STDOUT_EVA" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n%caller{1}</pattern>
+        </encoder>
+    </appender>
+    <!--endregion-->
+
+    <root level="INFO">
+<!--        配置几个appender就会打印几个日志，若包含相同内容，则会重复打印-->
+        <appender-ref ref="STDOUT"/>
+<!--        <appender-ref ref="STDOUT_RED"/>-->
+        <!--<appender-ref ref="STDOUT_EVA"/>-->
+<!--        <appender-ref ref="STDOUT_FILTER"/>-->
+        <!--<appender-ref ref="FILE" />-->
+        <!--<appender-ref ref="logstash"/>-->
+    </root>
+</configuration>
