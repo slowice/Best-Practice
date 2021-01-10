@@ -11,5 +11,4 @@ public class UserRequest {
     private List<String> typeList;
 
     private String name;
-
 }

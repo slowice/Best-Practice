@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+
+<!--    <classPathEntry location="/Users/xubin/.m2/repository/mysql/mysql-connector-java/8.0.12/mysql-connector-java-8.0.12.jar"/>-->
+
+<!--    <context id="context" targetRuntime="MyBatis3Simple">-->
+<!--        &lt;!&ndash;生成的方法添加注释&ndash;&gt;-->
+<!--        <commentGenerator>-->
+<!--            <property name="suppressAllComments" value="false"/>-->
+<!--            <property name="suppressDate" value="false"/>-->
+<!--        </commentGenerator>-->
+
+<!--        <jdbcConnection userId="root" password="dy82341733" driverClass="com.mysql.cj.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/best_practice?characterEncoding=utf8&amp;serverTimezone=UTC&amp;useSSL=false"/>-->
+
+<!--        <javaTypeResolver>-->
+<!--            <property name="forceBigDecimals" value="false"/>-->
+<!--        </javaTypeResolver>-->
+
+<!--        <javaModelGenerator targetPackage="xb.mybatis_demo.bean" targetProject="src/main/java">-->
+<!--            <property name="enableSubPackages" value="false"/>-->
+<!--            <property name="trimStrings" value="true"/>-->
+<!--        </javaModelGenerator>-->
+
+<!--        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">-->
+<!--            <property name="enableSubPackages" value="false"/>-->
+<!--        </sqlMapGenerator>-->
+
+<!--        <javaClientGenerator targetPackage="xb.mybatis_demo.dao" type="XMLMAPPER" targetProject="src/main/java">-->
+<!--            <property name="enableSubPackages" value="false"/>-->
+<!--        </javaClientGenerator>-->
+
+<!--        <table schema="best_practice" tableName="XB_USER" domainObjectName="User" enableCountByExample="false" enableDeleteByExample="false"-->
+<!--               enableSelectByExample="false" enableUpdateByExample="false"/>-->
+<!--    </context>-->
+</generatorConfiguration>

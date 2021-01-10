@@ -1,3 +1,4 @@
+import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.mgt.DefaultSecurityManager;
@@ -6,6 +7,7 @@ import org.apache.shiro.subject.Subject;
 import org.junit.Before;
 import org.junit.Test;
 
+@Slf4j
 public class SimpleShiroTest {
     SimpleAccountRealm simpleAccountRealm = new SimpleAccountRealm();
 
@@ -31,6 +33,6 @@ public class SimpleShiroTest {
         UsernamePasswordToken token = new UsernamePasswordToken("abg","123456");
         subject.login(token);
 
-        System.out.println("isAuthenticated : " + subject.isAuthenticated());
+        log.info("isAuthenticated : " + subject.isAuthenticated());
     }
 }
