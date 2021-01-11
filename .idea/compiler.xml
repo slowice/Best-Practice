@@ -7,22 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="redis_demo" />
+        <module name="demo" />
         <module name="message_demo" />
         <module name="elk_demo" />
         <module name="common_facade" />
         <module name="plan_demo" />
-        <module name="redis_demo" />
-        <module name="java_basis" />
         <module name="shiro_demo" />
+        <module name="java_basis" />
         <module name="concurrency_demo" />
+        <module name="common_utils" />
+        <module name="front_end_study" />
         <module name="persistence" />
         <module name="data" />
-        <module name="front_end_study" />
         <module name="spring_demo" />
         <module name="design_pattern" />
-        <module name="exception_handler_demo" />
-        <module name="common_utils" />
         <module name="frontend_demo" />
+        <module name="exception_handler_demo" />
+        <module name="spring_cloud_eureka" />
+        <module name="consumer" />
+        <module name="producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +45,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="data" options="" />
+      <module name="demo" options="-parameters" />
+      <module name="spring_cloud" options="" />
+      <module name="spring_cloud_eureka" options="" />
     </option>
   </component>
 </project>

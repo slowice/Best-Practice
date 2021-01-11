@@ -27,261 +27,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04f71f99-3504-425d-850c-4c7a208e827b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common_facade/common_facade.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_facade/target/classes/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_facade/target/classes/bean/UserRelation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_facade/target/classes/bean/UserRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_facade/target/classes/dto/UserDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_facade/target/classes/dto/UserRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_facade/target/classes/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common_utils/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency_demo/src/main/java/xb/lowlevelConcurrency/SimpleThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency_demo/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency_demo/target/classes/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency_demo/target/classes/xb/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/xb/data_construct/collection/CollectionSome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elk_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elk_demo/target/classes/xb/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception_handler_demo/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end_study/front_end_study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end_study/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end_study/target/classes/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end_study/target/classes/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end_study/target/classes/xb/front_end_study/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end_study/target/classes/xb/front_end_study/controller/Home.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message_demo/message_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message_demo/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message_demo/target/classes/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/persistence.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/xb/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/xb/mybatis/dao/UserMapperExternal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/xb/transaction/PersistenceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/xb/transaction/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/xb/transaction/UserService2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/xb/transaction/UserService2Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/xb/transaction/UserService3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/xb/transaction/UserService3Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/xb/transaction/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/mapper/UserMapperExternal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/xb/mybatis/dao/UserMapperExternalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/xb/transaction/UserServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/mapper/UserMapperExternal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/xb/mybatis/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/xb/mybatis/dao/UserMapperExternal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/xb/transaction/PersistenceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/xb/transaction/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/xb/transaction/UserService2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/xb/transaction/UserService2Impl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/xb/transaction/UserService3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/xb/transaction/UserService3Impl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/classes/xb/transaction/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/test-classes/xb/mybatis/dao/UserMapperExternalTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/target/test-classes/xb/transaction/UserServiceImplTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plan_demo/src/main/java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plan_demo/src/main/java/lru/LruWithRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plan_demo/target/classes/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plan_demo/target/classes/lru/LruWithRedis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_demo/redis_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_demo/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_demo/src/test/java/xb/ApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_demo/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_demo/target/classes/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_demo/target/classes/xb/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_demo/target/test-classes/xb/ApplicationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro_demo/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro_demo/target/classes/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/spring_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/anotation/MyValidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/anotation/NotEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/anotation/ParamNotNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/anotation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/event/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/event/EventTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/event/asyncEvent/AsyncBlackListEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/event/asyncEvent/AsyncBlackListNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/event/sampleEvent/SampleBlackListEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/event/sampleEvent/SampleBlacklistNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/hook/aop/TestAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/hook/aop/aspectAndAdvice/AspectAndAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/hook/aop/targetService/WithinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/hook/interceptor/ParamIntercepter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/hook/interceptor/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/hook/interceptor/WebMvnConfigurationAdpter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/hook/listener/ApplicationContextRefreshListen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/ioc/applicationContext/ApplicationContextSome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/ioc/fourwaystoinject/Bean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/log/SampleFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/log/subPackage/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/src/test/java/xb/ioc/applicationContext/ApplicationContextSomeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_demo/target/classes/rebel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/data_process_demo_war_exploded.xml" beforeDir="false" />
+    <list default="true" id="04f71f99-3504-425d-850c-4c7a208e827b" name="Default Changelist" comment="Project Restart">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best-practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_facade/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_facade/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_facade/src/main/java/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_facade/src/main/java/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_facade/src/main/java/bean/UserRelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_facade/src/main/java/bean/UserRelation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_facade/src/main/java/bean/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_facade/src/main/java/bean/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_facade/src/main/java/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_facade/src/main/java/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_facade/src/main/java/dto/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_facade/src/main/java/dto/UserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_utils/src/main/java/xb/common_utils/commonUtils/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/context_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/message_demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/context_demo/src/main/java/xb/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_demo/src/main/java/xb/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/context_demo/src/main/java/xb/StartCycleRunTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/hook/listener/ServletContextListen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/DataProcessDemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/bean/ClassRoom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/bean/MyForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/bean/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/data_access/DataAccessConroller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/data_generate/ColumnInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/data_generate/ColumnInfoDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/data_generate/Generator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/data_generate/TableInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/data_generate/TableService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/data_generate/TableServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/java/xb/data_process_demo/data_process/SteamHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/resources/mapper/ColumInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/resources/static/jquery-2.2.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/resources/templates/redirect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/main/resources/templates/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_process_demo/src/test/java/xb/data_process_demo/DataProcessDemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/design_pattern.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plan_demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/dynamic_proxy/cglibProxy/CglibProxyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/dynamic_proxy/cglibProxy/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/dynamic_proxy/jdkProxy/JdkProxyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/dynamic_proxy/jdkProxy/jdkProxyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/service/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/service/impl/ServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/static_proxy/StaticProxyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/src/main/java/simple/static_proxy/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/classes/simple/dynamic_proxy/cglibProxy/CglibProxyServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/classes/simple/dynamic_proxy/cglibProxy/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/classes/simple/dynamic_proxy/jdkProxy/JdkProxyServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/classes/simple/dynamic_proxy/jdkProxy/jdkProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/classes/simple/service/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/classes/simple/service/impl/ServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/classes/simple/static_proxy/StaticProxyServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/classes/simple/static_proxy/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo/build/123.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/proxy-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_pattern/proxy/target/proxy-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception_handler_demo/src/main/java/xb/exception_handler_demo/handler/MyHandlerInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/exception_handler_demo/src/main/java/xb/exception_handler_demo/handler/MyHandlerInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end_study/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front_end_study/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multipartfile-upload/multipartfile-upload.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/mybatis_demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/java/xb/mybatis_demo/MybatisDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo/src/main/java/xb/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/java/xb/mybatis_demo/bean/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/java/xb/mybatis_demo/dao/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/java/xb/mybatis_demo/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/java/xb/mybatis_demo/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/resources/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/test/java/xb/mybatis_demo/MybatisDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/test/java/xb/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/test/java/xb/mybatis_demo/dao/UserMapperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/src/test/java/xb/mybatis_demo/service/UserServiceImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_demo/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/classes/xb/mybatis_demo/MybatisDemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/classes/xb/mybatis_demo/bean/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/classes/xb/mybatis_demo/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/classes/xb/mybatis_demo/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/classes/xb/mybatis_demo/service/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/mybatis_demo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/mybatis_demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/surefire-reports/TEST-xb.mybatis_demo.MybatisDemoApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/surefire-reports/TEST-xb.mybatis_demo.service.UserServiceImplTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/surefire-reports/xb.mybatis_demo.MybatisDemoApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/surefire-reports/xb.mybatis_demo.service.UserServiceImplTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/test-classes/xb/mybatis_demo/MybatisDemoApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/test-classes/xb/mybatis_demo/dao/UserMapperTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_demo/target/test-classes/xb/mybatis_demo/service/UserServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/pagehelper-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/src/main/java/xb/pagehelperdemo/PageHelperDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis_demo/src/main/java/xb/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/src/main/java/xb/pagehelperdemo/bean/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/src/main/java/xb/pagehelperdemo/mapper/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/xb/mybatis/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/src/main/java/xb/pagehelperdemo/service/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/src/main/java/xb/pagehelperdemo/service/impl/TestServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/front_end_study/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/src/main/resources/mapper/TestMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/src/main/resources/mybatis-generator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/src/test/java/xb/pagehelperdemo/PageHelperDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo/src/test/java/xb/ApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/src/test/java/xb/pagehelperdemo/service/impl/TestServiceImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/classes/mapper/TestMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/classes/mybatis-generator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/classes/xb/pagehelperdemo/PageHelperDemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/classes/xb/pagehelperdemo/bean/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/classes/xb/pagehelperdemo/mapper/TestMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/classes/xb/pagehelperdemo/service/TestService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/classes/xb/pagehelperdemo/service/impl/TestServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/pagehelper-demo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/surefire-reports/TEST-xb.pagehelperdemo.service.impl.TestServiceImplTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/surefire-reports/xb.pagehelperdemo.service.impl.TestServiceImplTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/test-classes/xb/pagehelperdemo/PageHelperDemoApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagehelper-demo/target/test-classes/xb/pagehelperdemo/service/impl/TestServiceImplTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/shiro_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_demo/shiro_demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/src/test/java/IniRealmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_demo/src/test/java/IniRealmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/src/test/java/JdbcRealmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_demo/src/test/java/JdbcRealmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/src/test/java/SimpleShiroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_demo/src/test/java/SimpleShiroTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/src/test/resource/user.ini" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_demo/src/main/resources/user.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/target/shiro_demo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/target/shiro_demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/target/test-classes/IniRealmTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_demo/target/test-classes/IniRealmTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/target/test-classes/JdbcRealmTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_demo/target/test-classes/JdbcRealmTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro_demo/target/test-classes/SimpleShiroTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_demo/target/test-classes/SimpleShiroTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_demo/src/main/java/xb/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/elk_demo/src/main/java/xb/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_demo/src/main/java/xb/SimpleExcutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_demo/src/main/java/xb/highlevelConcurrency/SimpleExcutorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_demo/src/main/java/xb/SimpleTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_demo/src/main/java/xb/highlevelConcurrency/SimpleTaskTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_demo/src/main/java/xb/SimpleThreadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +111,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/persistence/src/main/resources/xb/mabatis/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_cloud/consumer/src/main/java/xb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -368,7 +119,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4488316" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="settings.editor.splitter.proportion" value="0.19880952" />
   </component>
   <component name="ReactorSettings">
@@ -378,11 +129,6 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.springframework.context" />
-      <recent name="simple.service" />
-      <recent name="xb.mybatis_demo.service" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="xb.ioc.applicationContext" />
       <recent name="xb.redis" />
@@ -398,26 +144,31 @@
       <recent name="xb.dataConstruct" />
       <recent name="xb.transaction" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/persistence/src/main/resources/xb/mabatis/dao" />
-      <recent name="$PROJECT_DIR$/persistence/src/main/java/xb/mybatis/dao" />
-      <recent name="$PROJECT_DIR$/spring_demo/src/main/java/xb/transaction" />
-      <recent name="$PROJECT_DIR$/spring_demo/src/main/resources" />
-      <recent name="$PROJECT_DIR$/data/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="xb.dao" />
-      <recent name="xb.data_access" />
-      <recent name="xb.data_process.json" />
-      <recent name="xb.data_output" />
-      <recent name="xb" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/shiro_demo/src/main/resources" />
       <recent name="$PROJECT_DIR$/design_pattern" />
       <recent name="$PROJECT_DIR$/design_pattern/proxy/src/main/java" />
       <recent name="$PROJECT_DIR$/spring_demo/src/main/resources/ioc" />
       <recent name="$APPLICATION_CONFIG_DIR$/consoles/db" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring_cloud/consumer/src/main/java/xb" />
+      <recent name="$PROJECT_DIR$/persistence/src/main/resources/xb/mabatis/dao" />
+      <recent name="$PROJECT_DIR$/persistence/src/main/java/xb/mybatis/dao" />
+      <recent name="$PROJECT_DIR$/spring_demo/src/main/java/xb/transaction" />
+      <recent name="$PROJECT_DIR$/spring_demo/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xb" />
+      <recent name="xb.dao" />
+      <recent name="xb.data_access" />
+      <recent name="xb.data_process.json" />
+      <recent name="xb.data_output" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.springframework.context" />
+      <recent name="simple.service" />
+      <recent name="xb.mybatis_demo.service" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -495,7 +246,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CommonAlgorithm.reInvokeTest">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="CommonAlgorithm.listAllFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data" />
       <extension name="coverage">
@@ -523,54 +274,6 @@
       <option name="PACKAGE_NAME" value="xb.commonAlgorithm" />
       <option name="MAIN_CLASS_NAME" value="xb.commonAlgorithm.CommonAlgorithm" />
       <option name="METHOD_NAME" value="reInvokeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleThreadTest.interruptTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="concurrency_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xb.lowlevelConcurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xb.lowlevelConcurrency" />
-      <option name="MAIN_CLASS_NAME" value="xb.lowlevelConcurrency.SimpleThreadTest" />
-      <option name="METHOD_NAME" value="interruptTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleThreadTest.interruptTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="concurrency_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xb.lowlevelConcurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xb.lowlevelConcurrency" />
-      <option name="MAIN_CLASS_NAME" value="xb.lowlevelConcurrency.SimpleThreadTest" />
-      <option name="METHOD_NAME" value="interruptTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleThreadTest.interruptTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="concurrency_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xb.lowlevelConcurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xb.lowlevelConcurrency" />
-      <option name="MAIN_CLASS_NAME" value="xb.lowlevelConcurrency.SimpleThreadTest" />
-      <option name="METHOD_NAME" value="interruptTest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -628,6 +331,13 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="plan_demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="front_end_study" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="xb.front_end_study.Application" />
@@ -635,17 +345,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="plan_demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="Application" />
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="concurrency_demo" />
+    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="xb.Application" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring_cloud_eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -703,19 +437,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataProcessDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="data_process_demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.data_process_demo.DataProcessDemoApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <additionalParameters>
-        <param>
-          <option name="enabled" value="true" />
-          <option name="name" value="" />
-          <option name="value" value="" />
-        </param>
-      </additionalParameters>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -723,35 +447,6 @@
     <configuration name="ExceptionHandlerDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="exception_handler_demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="xb.exception_handler_demo.ExceptionHandlerDemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IoDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="io_demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.io_demo.IoDemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultipartfileUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="multipartfile-upload" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.multipartfileupload.MultipartfileUploadApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="persistence" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PagehelperDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="pagehelper-demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="xb.pagehelperdemo.PageHelperDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -965,33 +660,28 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SimpleThreadTest.interruptTest" />
-      <item itemvalue="JUnit.SimpleThreadTest.interruptTest2" />
-      <item itemvalue="JUnit.SimpleThreadTest.interruptTest3" />
       <item itemvalue="JUnit.CommonAlgorithm.listAllFile" />
       <item itemvalue="JUnit.CommonAlgorithm.reInvokeTest" />
       <item itemvalue="Maven.mybatisgenerator" />
-      <item itemvalue="Spring Boot.PagehelperDemoApplication" />
-      <item itemvalue="Spring Boot.MultipartfileUploadApplication" />
-      <item itemvalue="Spring Boot.MybatisDemoApplication" />
-      <item itemvalue="Spring Boot.DataProcessDemoApplication" />
       <item itemvalue="Spring Boot.ExceptionHandlerDemoApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.DataApplication" />
+      <item itemvalue="Spring Boot.Application (2)" />
       <item itemvalue="Spring Boot.CommonUtilsApplication" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.Application (2)" />
       <item itemvalue="Spring Boot.Application (3)" />
-      <item itemvalue="Spring Boot.DataApplication" />
-      <item itemvalue="Spring Boot.IoDemoApplication" />
+      <item itemvalue="Spring Boot.Application (4)" />
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Tomcat Server.dataProcess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Spring Boot.Application (4)" />
+        <item itemvalue="Spring Boot.Application (3)" />
         <item itemvalue="JUnit.CommonAlgorithm.reInvokeTest" />
         <item itemvalue="JUnit.CommonAlgorithm.listAllFile" />
-        <item itemvalue="JUnit.SimpleThreadTest.interruptTest3" />
-        <item itemvalue="JUnit.SimpleThreadTest.interruptTest2" />
-        <item itemvalue="JUnit.SimpleThreadTest.interruptTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1159,6 +849,15 @@
       <workItem from="1610273914619" duration="60000" />
       <workItem from="1610274404261" duration="614000" />
       <workItem from="1610283230984" duration="404000" />
+      <workItem from="1610283687633" duration="1947000" />
+      <workItem from="1610286182533" duration="204000" />
+      <workItem from="1610286404752" duration="150000" />
+      <workItem from="1610287439256" duration="57000" />
+      <workItem from="1610287519499" duration="30000" />
+      <workItem from="1610287565653" duration="99000" />
+      <workItem from="1610287683963" duration="24000" />
+      <workItem from="1610287724147" duration="5012000" />
+      <workItem from="1610376191060" duration="1542000" />
     </task>
     <task id="LOCAL-00001" summary="best-practice series">
       <created>1542099847153</created>
@@ -1202,7 +901,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603251792239</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Project Restart">
+      <created>1610284052272</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610284052272</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1242,7 +948,8 @@
     <MESSAGE value="补充数据处理模块，将文件上传合并到数据处理模块" />
     <MESSAGE value="update common module" />
     <MESSAGE value="add SimpleExcutorTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SimpleExcutorTest" />
+    <MESSAGE value="Project Restart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Restart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="839" y="344" key="#Custom_Plugin_Repositories" timestamp="1606475784268">
@@ -1254,20 +961,24 @@
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="454" y="405" width="362" height="266" key="#Notifications/0.25.1680.965@0.25.1680.965" timestamp="1606545916556" />
-    <state x="304" y="172" width="1201" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606548075164">
+    <state x="328" y="86" key="#Project_Structure" timestamp="1610288574472">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="328" y="86" key="#Project_Structure/0.25.1680.965@0.25.1680.965" timestamp="1610288574472" />
+    <state x="304" y="172" width="1201" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610290021365">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="304" y="171" width="1201" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.973@0.23.1680.973" timestamp="1604828298591" />
-    <state x="304" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.965@0.25.1680.965" timestamp="1606548075164" />
+    <state x="304" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.965@0.25.1680.965" timestamp="1610290021365" />
     <state x="522" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604923257595">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="522" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.973@0.23.1680.973" timestamp="1604923257595" />
-    <state x="653" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1607592889101">
+    <state x="653" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1610292052553">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="653" y="223" key="#com.intellij.ide.util.MemberChooser/0.23.1680.973@0.23.1680.973" timestamp="1604893244531" />
-    <state x="653" y="223" key="#com.intellij.ide.util.MemberChooser/0.25.1680.965@0.25.1680.965" timestamp="1607592889101" />
+    <state x="653" y="223" key="#com.intellij.ide.util.MemberChooser/0.25.1680.965@0.25.1680.965" timestamp="1610292052553" />
     <state x="577" y="293" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1602830800928">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
@@ -1303,46 +1014,50 @@
     </state>
     <state width="457" height="466" key="DebuggerActiveHint/0.23.1680.973@0.23.1680.973" timestamp="1605840137267" />
     <state width="588" height="463" key="DebuggerActiveHint/0.25.1680.965@0.25.1680.965" timestamp="1606886454528" />
-    <state width="1638" height="316" key="GridCell.Tab.0.bottom" timestamp="1607594113189">
+    <state x="0" y="25" key="FileDocumentManager.FileCacheConflict" timestamp="1610285811756">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="0" y="25" key="FileDocumentManager.FileCacheConflict/0.25.1680.965@0.25.1680.965" timestamp="1610285811756" />
+    <state width="1359" height="316" key="GridCell.Tab.0.bottom" timestamp="1610381448803">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1605840189045" />
-    <state width="1638" height="316" key="GridCell.Tab.0.bottom/0.25.1680.965@0.25.1680.965" timestamp="1607594113189" />
-    <state width="1638" height="316" key="GridCell.Tab.0.center" timestamp="1607594113188">
+    <state width="1359" height="316" key="GridCell.Tab.0.bottom/0.25.1680.965@0.25.1680.965" timestamp="1610381448803" />
+    <state width="1359" height="316" key="GridCell.Tab.0.center" timestamp="1610381448801">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1605840189044" />
-    <state width="1638" height="316" key="GridCell.Tab.0.center/0.25.1680.965@0.25.1680.965" timestamp="1607594113188" />
-    <state width="1638" height="316" key="GridCell.Tab.0.left" timestamp="1607594113188">
+    <state width="1359" height="316" key="GridCell.Tab.0.center/0.25.1680.965@0.25.1680.965" timestamp="1610381448801" />
+    <state width="1359" height="316" key="GridCell.Tab.0.left" timestamp="1610381448801">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1605840189044" />
-    <state width="1638" height="316" key="GridCell.Tab.0.left/0.25.1680.965@0.25.1680.965" timestamp="1607594113188" />
-    <state width="1638" height="316" key="GridCell.Tab.0.right" timestamp="1607594113188">
+    <state width="1359" height="316" key="GridCell.Tab.0.left/0.25.1680.965@0.25.1680.965" timestamp="1610381448801" />
+    <state width="1359" height="316" key="GridCell.Tab.0.right" timestamp="1610381448802">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1605840189044" />
-    <state width="1638" height="316" key="GridCell.Tab.0.right/0.25.1680.965@0.25.1680.965" timestamp="1607594113188" />
-    <state width="1638" height="105" key="GridCell.Tab.1.bottom" timestamp="1607594113185">
+    <state width="1359" height="316" key="GridCell.Tab.0.right/0.25.1680.965@0.25.1680.965" timestamp="1610381448802" />
+    <state width="1359" height="316" key="GridCell.Tab.1.bottom" timestamp="1610381448804">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.1.bottom/0.23.1680.973@0.23.1680.973" timestamp="1605840189046" />
-    <state width="1638" height="105" key="GridCell.Tab.1.bottom/0.25.1680.965@0.25.1680.965" timestamp="1607594113185" />
-    <state width="1638" height="105" key="GridCell.Tab.1.center" timestamp="1607594113184">
+    <state width="1359" height="316" key="GridCell.Tab.1.bottom/0.25.1680.965@0.25.1680.965" timestamp="1610381448804" />
+    <state width="1359" height="316" key="GridCell.Tab.1.center" timestamp="1610381448803">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.1.center/0.23.1680.973@0.23.1680.973" timestamp="1605840189045" />
-    <state width="1638" height="105" key="GridCell.Tab.1.center/0.25.1680.965@0.25.1680.965" timestamp="1607594113184" />
-    <state width="1638" height="105" key="GridCell.Tab.1.left" timestamp="1607594113184">
+    <state width="1359" height="316" key="GridCell.Tab.1.center/0.25.1680.965@0.25.1680.965" timestamp="1610381448803" />
+    <state width="1359" height="316" key="GridCell.Tab.1.left" timestamp="1610381448803">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.1.left/0.23.1680.973@0.23.1680.973" timestamp="1605840189045" />
-    <state width="1638" height="105" key="GridCell.Tab.1.left/0.25.1680.965@0.25.1680.965" timestamp="1607594113184" />
-    <state width="1638" height="105" key="GridCell.Tab.1.right" timestamp="1607594113184">
+    <state width="1359" height="316" key="GridCell.Tab.1.left/0.25.1680.965@0.25.1680.965" timestamp="1610381448803" />
+    <state width="1359" height="316" key="GridCell.Tab.1.right" timestamp="1610381448804">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.1.right/0.23.1680.973@0.23.1680.973" timestamp="1605840189045" />
-    <state width="1638" height="105" key="GridCell.Tab.1.right/0.25.1680.965@0.25.1680.965" timestamp="1607594113184" />
+    <state width="1359" height="316" key="GridCell.Tab.1.right/0.25.1680.965@0.25.1680.965" timestamp="1610381448804" />
     <state width="1338" height="243" key="GridCell.Tab.2.bottom" timestamp="1606980497581">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
@@ -1375,15 +1090,16 @@
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="561" y="216" key="NewModule_or_Project.wizard/0.23.1680.973@0.23.1680.973" timestamp="1603255790454" />
-    <state x="0" y="25" width="1680" height="965" key="SettingsEditor" timestamp="1607067583102">
+    <state x="0" y="25" width="1680" height="965" key="SettingsEditor" timestamp="1610288152449">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="434" y="91" key="SettingsEditor/0.23.1680.973@0.23.1680.973" timestamp="1605778091263" />
-    <state x="0" y="25" width="1680" height="965" key="SettingsEditor/0.25.1680.965@0.25.1680.965" timestamp="1607067583102" />
-    <state x="440" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603251870576">
-      <screen x="0" y="23" width="1680" height="973" />
+    <state x="0" y="25" width="1680" height="965" key="SettingsEditor/0.25.1680.965@0.25.1680.965" timestamp="1610288152449" />
+    <state x="440" y="249" key="Vcs.Push.Dialog.v2" timestamp="1610283957347">
+      <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="440" y="249" key="Vcs.Push.Dialog.v2/0.23.1680.973@0.23.1680.973" timestamp="1603251870576" />
+    <state x="440" y="249" key="Vcs.Push.Dialog.v2/0.25.1680.965@0.25.1680.965" timestamp="1610283957347" />
     <state x="344" y="245" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604842923145">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
@@ -1392,21 +1108,29 @@
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="541" y="140" width="911" height="735" key="find.popup/0.25.1680.965@0.25.1680.965" timestamp="1606632437795" />
-    <state x="268" y="192" width="1291" height="674" key="new project wizard" timestamp="1607066715366">
+    <state x="855" y="352" key="git4idea.merge.GitPullDialog" timestamp="1610283888441">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="855" y="352" key="git4idea.merge.GitPullDialog/0.25.1680.965@0.25.1680.965" timestamp="1610283888441" />
+    <state x="958" y="452" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610283855647">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="958" y="452" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1680.965@0.25.1680.965" timestamp="1610283855647" />
+    <state x="235" y="111" width="1265" height="680" key="new project wizard" timestamp="1610290777291">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="314" y="132" width="1291" height="674" key="new project wizard/0.23.1680.973@0.23.1680.973" timestamp="1604923880611" />
-    <state x="268" y="192" key="new project wizard/0.25.1680.965@0.25.1680.965" timestamp="1607066715366" />
+    <state x="235" y="111" width="1265" height="680" key="new project wizard/0.25.1680.965@0.25.1680.965" timestamp="1610290777291" />
     <state x="505" y="235" width="670" height="670" key="run.anything.popup" timestamp="1607066737579">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="505" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.973@0.23.1680.973" timestamp="1603255737313" />
     <state x="505" y="235" width="670" height="670" key="run.anything.popup/0.25.1680.965@0.25.1680.965" timestamp="1607066737579" />
-    <state x="505" y="237" width="670" height="158" key="search.everywhere.popup" timestamp="1607588715183">
+    <state x="505" y="237" width="670" height="158" key="search.everywhere.popup" timestamp="1610288737608">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.973@0.23.1680.973" timestamp="1603108573561" />
-    <state x="505" y="237" width="670" height="158" key="search.everywhere.popup/0.25.1680.965@0.25.1680.965" timestamp="1607588715183" />
+    <state x="505" y="237" width="670" height="158" key="search.everywhere.popup/0.25.1680.965@0.25.1680.965" timestamp="1610288737608" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
