@@ -26,4 +26,8 @@ public class Temp{
     private void doo(String msg){
         System.out.println(msg);
     }
+
+    public static void main(String[] args) {
+        System.out.println("5"+2);
+    }
 }
