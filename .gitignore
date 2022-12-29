@@ -6,3 +6,5 @@
 
 */target/
 */.mvn/
+*.iml
+*.iml
