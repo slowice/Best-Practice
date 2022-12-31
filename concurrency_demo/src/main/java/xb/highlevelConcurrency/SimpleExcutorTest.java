@@ -44,8 +44,11 @@ public class SimpleExcutorTest {
      */
     public static void threadPoolExecutorTest() throws Exception{
         /**
-        corePoolSize：核心线程池大小 maximumPoolSize：线程池大小 keepAliveTime：线程空闲后，线程存活时间
-        timeUnit：存活时间的单位 runnalbleTaskQueue：阻塞队列.还有最后一个参数是饱和此处没写是用的默认策略。
+        corePoolSize：核心线程池大小
+         maximumPoolSize：线程池大小
+         keepAliveTime：线程空闲后，线程存活时间
+        timeUnit：存活时间的单位
+         runnalbleTaskQueue：阻塞队列.还有最后一个参数是饱和此处没写是用的默认策略。
         AbortPolicy：这是默认的策略，直接抛出异常；CallerRunsPolicy：只是用调用者所在线程来运行任务；
         DiscardOldestPolicy：丢弃队列中最老的任务，并执行当前任务；DiscardPolicy：不处理，直接把当前任务丢弃；
         */

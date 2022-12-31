@@ -16,9 +16,9 @@ public class ApplicationTests {
 
     @Test
     public void test1(){
-        User u = new User();
-        u.setIdUser("x14106a036fad497f97b1ec14ef05c5f");
-        u.setName("x1");
-        mapper.insert(u);
+//        User u = new User();
+//        u.setIdUser("x14106a036fad497f97b1ec14ef05c5f");
+//        u.setName("x1");
+//        mapper.insert(u);
     }
 }

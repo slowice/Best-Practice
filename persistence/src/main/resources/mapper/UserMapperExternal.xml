@@ -54,7 +54,7 @@
   批量新增
 -->
   <insert id="insertBatch" parameterType="bean.User">
-    insert into xb_user (id_user, name, birthday) values
+    insert into user (id_user, name, birthday) values
     <foreach item="item" collection="userList" separator=",">
       (#{item.idUser}, #{item.name}, #{item.birthday})
     </foreach>
@@ -64,7 +64,7 @@
   批量删除
 -->
   <insert id="deleteBatch" parameterType="bean.User">
-    delete from xb_user
+    delete from user
     where id_user in
     <foreach item="item" collection="userList" separator="," open="(" close=")">
       (#{item.idUser})
@@ -75,7 +75,7 @@
   批量查找
 -->
   <select id="selectBatchById" resultType="bean.User">
-    select * from xb_user
+    select * from user
     where id_user in
     <foreach item="item" collection="userList" separator="," open="(" close=")">
       (#{item.idUser})
@@ -86,10 +86,10 @@
 #和$的区别
 -->
   <select id="sharpSelect" resultType="dto.UserDTO">
-    select * from xb_user where id_user = #{idUser}
+    select * from user where id_user = #{idUser}
   </select>
   <select id="dollorSelect" resultType="dto.UserDTO">
-    select * from xb_user where id_user = '${idUser}'
+    select * from user where id_user = '${idUser}'
   </select>
 
 
@@ -97,16 +97,16 @@
   union测试
 -->
   <select id="unionTest" resultMap="BaseResultMap">
-    select * from xb_user where name = 'abg1'
+    select * from user where name = 'abg1'
     union all
-    select * from xb_user where name = 'abg2'
+    select * from user where name = 'abg2'
   </select>
 
 <!--
 动态语言查询
 -->
   <select id="ifTest" resultMap="BaseResultMap" parameterType="dto.UserRequest">
-    select * from xb_user
+    select * from user
     where 1 = 1
     <if test="id != null">
       and id_user = #{id}
@@ -120,9 +120,7 @@
   </select>
 
 
-  <select id="queryRoles" resultType="bean.UserRole">
-    select * from xb_user_role where user_id = #{userId}
-  </select>
+
 
 <!--
 mybatis有命名匹配机制，可以驼峰自动转换
@@ -131,29 +129,29 @@ mybatis有命名匹配机制，可以驼峰自动转换
     select
            user.name,
            user.mobile_phone
-    from XB_USER user
+    from user
     WHERE user.id_user = #{idUser}
   </select>
 
-  <select id="complexQueryTest" resultMap="complexResultMap">
-    select
-        user.id_user,
-        user.name,
-        user.birthday,
-        user.type,
-        relation.address_id,
-        role.role_name,
-        role.id_user_role
-    from xb_user user
-    join xb_user_relation relation on user.id_user = relation.user_id
-    join xb_user_role role on relation.role_id = role.id_user_role
-  </select>
+<!--  <select id="complexQueryTest" resultMap="complexResultMap">-->
+<!--    select-->
+<!--        user.id_user,-->
+<!--        user.name,-->
+<!--        user.birthday,-->
+<!--        user.type,-->
+<!--        relation.address_id,-->
+<!--        role.role_name,-->
+<!--        role.id_user_role-->
+<!--    from xb_user user-->
+<!--    join xb_user_relation relation on user.id_user = relation.user_id-->
+<!--    join xb_user_role role on relation.role_id = role.id_user_role-->
+<!--  </select>-->
 
 <!--
 分页查询测试
 -->
   <select id="selectAllPaged" resultType="dto.UserDTO">
-    select * from xb_user
+    select * from user
   </select>
 
   <resultMap id="testMap" type="dto.UserDTO">
@@ -166,14 +164,14 @@ mybatis有命名匹配机制，可以驼峰自动转换
     </collection>
   </resultMap>
 
-  <select id="test" resultMap="testMap">
-    select u.name,role.role_name,subu.name as subName
-    from xb_user u ,xb_user subu,xb_user_role role, xb_user_relation relation
-    where u.id_user = subu.pid and u.id_user = relation.user_id and role.id_user_role = relation.role_id
-    union all
-    select u.name,role.role_name,subu.name as subName
-    from xb_user u ,xb_user subu,xb_user_role role, xb_user_relation relation
-    where u.id_user = subu.pid and u.id_user = relation.user_id and role.id_user_role = relation.role_id
-    and relation.user_id IS NULL
-  </select>
+<!--  <select id="test" resultMap="testMap">-->
+<!--    select u.name,role.role_name,subu.name as subName-->
+<!--    from xb_user u ,xb_user subu,xb_user_role role, xb_user_relation relation-->
+<!--    where u.id_user = subu.pid and u.id_user = relation.user_id and role.id_user_role = relation.role_id-->
+<!--    union all-->
+<!--    select u.name,role.role_name,subu.name as subName-->
+<!--    from xb_user u ,xb_user subu,xb_user_role role, xb_user_relation relation-->
+<!--    where u.id_user = subu.pid and u.id_user = relation.user_id and role.id_user_role = relation.role_id-->
+<!--    and relation.user_id IS NULL-->
+<!--  </select>-->
 </mapper>

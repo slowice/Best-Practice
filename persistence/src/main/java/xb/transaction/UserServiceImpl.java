@@ -7,7 +7,6 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import xb.mybatis.dao.UserMapper;
 
-import java.util.Arrays;
 import java.util.List;
 
 @Service
@@ -55,7 +54,7 @@ public class UserServiceImpl implements UserService {
 
         service2.updateTransactional(user2);
         updateTransactional(user1);
-        int i=1/0;
+        //int i=1/0;
     }
 
 

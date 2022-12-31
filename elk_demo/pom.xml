@@ -18,7 +18,7 @@
         <dependency>
             <groupId>xb</groupId>
             <artifactId>common_utils</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>xb</groupId>
@@ -31,6 +31,11 @@
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-client</artifactId>
             <version>7.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>7.2</version>
         </dependency>
     </dependencies>
 </project>

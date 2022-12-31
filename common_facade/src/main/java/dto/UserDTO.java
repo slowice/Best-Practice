@@ -5,6 +5,7 @@ import lombok.Data;
 import bean.User;
 import bean.UserRole;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
@@ -28,6 +29,10 @@ public class UserDTO extends User {
     private List<UserRole> roleList;
 
     private List<User> userList;
+
+    private MultipartFile file;
+
+    private List<MultipartFile>  files;
 
     public UserRelation getUserRelation() {
         return userRelation;

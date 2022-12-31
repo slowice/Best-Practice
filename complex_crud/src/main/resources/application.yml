@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: crud
+  datasource:
+    url: jdbc:mysql://localhost:3306/best_practice?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai #每个参数的必要性有待确定
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect #这条属性的必要性有待确定

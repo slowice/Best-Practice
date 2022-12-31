@@ -1,12 +1,10 @@
 package xb.event;
 
-import bean.User;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.stereotype.Component;
-import xb.event.asyncEvent.AsyncBlackListEvent;
 
 import java.util.Arrays;
 import java.util.List;

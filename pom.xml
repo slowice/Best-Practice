@@ -6,19 +6,27 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>common_facade</module>
+        <module>common_utils</module>
+
         <module>data</module>
         <module>shiro_demo</module>
         <module>concurrency_demo</module>
         <module>front_end_study</module>
         <module>spring_demo</module>
         <module>message_demo</module>
-        <module>common_facade</module>
         <module>redis_demo</module>
         <module>persistence</module>
         <module>plan_demo</module>
         <module>elk_demo</module>
         <module>java_basis</module>
         <module>spring_cloud</module>
+        <module>simple_crud</module>
+        <module>algorithm_study</module>
+        <module>complex_crud</module>
+        <module>rabbitmq_demo</module>
+        <module>gateway_demo</module>
+        <module>nacos-provider</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>
@@ -34,21 +42,7 @@
     </properties>
 
     <dependencies>
-        <!--    boot基础    -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -58,13 +52,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
-
+        <!--    Lombok    -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-
+        <!--    fastjson    -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
@@ -96,13 +90,6 @@
                     <artifactId>spring-boot-dependencies</artifactId>
                     <version>2.1.0.RELEASE</version>
                     <!--这两句话很重要，要不然会爆红-->
-                    <type>pom</type>
-                    <scope>import</scope>
-                </dependency>
-                <dependency>
-                    <groupId>org.springframework.cloud</groupId>
-                    <artifactId>spring-cloud-dependencies</artifactId>
-                    <version>${spring-cloud.version}</version>
                     <type>pom</type>
                     <scope>import</scope>
                 </dependency>

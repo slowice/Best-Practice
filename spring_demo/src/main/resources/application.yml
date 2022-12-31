@@ -11,10 +11,14 @@ spring:
   application:
     name: haha
   datasource:
-    url: jdbc:mysql://localhost:3306/best_practice?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://localhost:3306/best_practice?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
-    password: dy82341733
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml

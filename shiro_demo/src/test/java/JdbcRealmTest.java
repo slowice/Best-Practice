@@ -12,9 +12,9 @@ public class JdbcRealmTest {
     DruidDataSource dataSource = new DruidDataSource();
 
     {
-        dataSource.setUrl("jdbc:mysql://localhost:3306/best_practice?characterEncoding=utf8&useSSL=false");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/best_practice?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai");
         dataSource.setUsername("root");
-        dataSource.setPassword("dy82341733");
+        dataSource.setPassword("123456");
     }
 
     @Test

@@ -51,7 +51,7 @@ public class UserMapperExternalTest extends ApplicationTests {
         Assert.assertTrue(CollectionUtils.isEmpty(userList));
     }
 
-    @Test
+    //@Test
     /**
      * 值得注意的是，在if设置条件的时候，传递值要单引号在外层，双引号在内层！如 <if test='status == "1"'>
      */

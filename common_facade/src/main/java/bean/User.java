@@ -3,16 +3,22 @@ package bean;
 import lombok.Data;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.File;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-@Data
 /**
  * User主要信息
  */
+@Data
+@Entity
+@Table(name = "user")
 public class User implements Serializable {
+
+    @Id
     private String idUser;
 
     private String pid;
@@ -29,7 +35,13 @@ public class User implements Serializable {
 
     private MultipartFile file;
 
-    private List<MultipartFile>  files;
+    public MultipartFile getFile() {
+        return file;
+    }
+
+    public void setFile(MultipartFile file) {
+        this.file = file;
+    }
 
     public String getIdUser() {
         return idUser;
@@ -85,21 +97,5 @@ public class User implements Serializable {
 
     public void setType(int type) {
         this.type = type;
-    }
-
-    public MultipartFile getFile() {
-        return file;
-    }
-
-    public void setFile(MultipartFile file) {
-        this.file = file;
-    }
-
-    public List<MultipartFile> getFiles() {
-        return files;
-    }
-
-    public void setFiles(List<MultipartFile> files) {
-        this.files = files;
     }
 }

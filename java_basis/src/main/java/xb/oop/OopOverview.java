@@ -11,11 +11,14 @@ public class OopOverview {
     private String i2;
     private boolean i3;
 
+    private void test(){
+        System.out.println("123");
+    }
+
     public static void main(String[] args) {
         OopOverview o = new OopOverview();
-     float a = 1f;
-     float b= 1.1f;
-        System.out.println(a);
-        System.out.println(b);
+        o.test();
+        Child c = new Child();
+        c.test();
     }
 }

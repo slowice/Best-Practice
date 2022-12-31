@@ -1,0 +1,10 @@
+spring:
+  #给项目来个名字
+  application:
+    name: rabbitmq-provider
+  #配置rabbitMq 服务器
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest

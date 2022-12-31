@@ -1,0 +1,18 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: cloud-gateway-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          enable: false
+      routes:
+        - id: nacos-provider
+          uri: http://localhost:9001/nacos-provider
+          predicates:
+            - Path=/mxn/**

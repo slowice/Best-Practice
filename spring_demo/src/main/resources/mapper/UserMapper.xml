@@ -7,28 +7,28 @@
     <result column="birthday" jdbcType="TIMESTAMP" property="birthday" />
   </resultMap>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
-    delete from xb_user
+    delete from user
     where id_user = #{idUser,jdbcType=CHAR}
   </delete>
   <insert id="insert" parameterType="bean.User">
-    insert into xb_user (id_user, name, birthday
+    insert into user (id_user, name, birthday
       )
     values (#{idUser,jdbcType=CHAR}, #{name,jdbcType=VARCHAR}, #{birthday,jdbcType=TIMESTAMP}
       )
   </insert>
   <update id="updateByPrimaryKey" parameterType="bean.User">
-    update xb_user
+    update user
     set name = #{name,jdbcType=VARCHAR},
       birthday = #{birthday,jdbcType=TIMESTAMP}
     where id_user = #{idUser,jdbcType=CHAR}
   </update>
   <select id="selectByPrimaryKey" parameterType="java.lang.String" resultType="bean.User" useCache="false">
     select name,id_user,mobile_phone
-    from xb_user
+    from user
     where id_user = #{idUser,jdbcType=CHAR}
   </select>
   <select id="selectAll" resultMap="BaseResultMap">
     select id_user, name, birthday
-    from xb_user
+    from user
   </select>
 </mapper>
