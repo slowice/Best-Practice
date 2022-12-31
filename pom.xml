@@ -27,6 +27,8 @@
         <module>rabbitmq_demo</module>
         <module>gateway_demo</module>
         <module>nacos-provider</module>
+        <module>exception_handler_demo</module>
+        <module>common_persist</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>
@@ -99,10 +101,10 @@
     <build>
         <plugins>
             <!--可以让maven将boot项目打包为可执行程序-->
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--            </plugin>-->
             <!--避免每次maven update后程序变为java1.5-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
