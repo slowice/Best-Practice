@@ -1,6 +1,7 @@
 package xb;
 
 import com.alibaba.fastjson.JSONObject;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.jupiter.api.*;
 
@@ -21,6 +22,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+@Slf4j
 @SpringBootTest()
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class ApplicationTest {
@@ -37,6 +39,7 @@ class ApplicationTest {
     @Test
     @Order(1)
     public void testAdd() throws Exception {
+        log.info("hahahahahah");
         User user = new User();
         user.setIdUser("123456789");
         user.setName("abg");
