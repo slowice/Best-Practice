@@ -1,6 +1,5 @@
 package xb.controller;
 
-import org.jboss.logging.MessageLogger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

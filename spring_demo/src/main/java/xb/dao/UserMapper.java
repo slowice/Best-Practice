@@ -1,6 +1,6 @@
 package xb.dao;
 
-import bean.User;
+import xb.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

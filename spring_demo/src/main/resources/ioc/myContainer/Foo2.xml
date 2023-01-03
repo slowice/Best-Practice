@@ -8,9 +8,9 @@
 
     <bean id="foo2" class="xb.ioc.myIocContainer.Foo2">
         <property name="foo1" ref="foo1"/>
-        <!-- additional collaborators and configuration for this bean go here -->
+        <!-- additional collaborators and configuration for this entity go here -->
     </bean>
 
-    <!-- more bean definitions for services go here -->
+    <!-- more entity definitions for services go here -->
 
 </beans>

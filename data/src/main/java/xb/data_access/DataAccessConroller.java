@@ -1,12 +1,12 @@
 package xb.data_access;
 
-import bean.User;
+import xb.entity.User;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import dto.UserDTO;
+import xb.dto.UserDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.time.FastDateFormat;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -87,13 +87,13 @@ public class DataAccessConroller {
     @PostMapping("/complexFileUpload")
     @ResponseBody
     public String complexFileUpload(User myForm) throws IOException {
-        String name = myForm.getName();
-        MultipartFile file = myForm.getFile();
-        log.info("hello "+name);
-        if(!file.isEmpty()){
-            byte[] bytes = file.getBytes();
-            return "upload success";
-        }
+//        String name = myForm.getName();
+//        MultipartFile file = myForm.getFile();
+//        log.info("hello "+name);
+//        if(!file.isEmpty()){
+//            byte[] bytes = file.getBytes();
+//            return "upload success";
+//        }
         return "upload failed!";
     }
     //endregion

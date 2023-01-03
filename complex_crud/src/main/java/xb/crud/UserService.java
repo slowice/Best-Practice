@@ -1,7 +1,7 @@
 package xb.crud;
 
 
-import xb.bean.User;
+import xb.entity.User;
 
 public interface UserService {
     void add(User user);

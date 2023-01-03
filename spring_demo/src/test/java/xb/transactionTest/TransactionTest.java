@@ -1,7 +1,7 @@
 package xb.transactionTest;
 
-import bean.User;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import xb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import xb.ApplicationTest;
 import xb.transaction.TransactionTestService;
@@ -13,7 +13,7 @@ public class TransactionTest extends ApplicationTest {
     TransactionTestService transactionTestService;
 
     //测试基于xml的事务配置，抛nullpointer exception 数据插入会失效。expected属性会捕捉异常使测试成功
-    @Test(expected = NullPointerException.class)
+    @Test()
     public void testRollBackForException(){
         User u = new User();
         u.setIdUser("X1106a036fad497f97b1ec14ef05c5fd");

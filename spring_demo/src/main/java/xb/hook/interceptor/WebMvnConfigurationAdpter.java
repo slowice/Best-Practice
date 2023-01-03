@@ -1,7 +1,7 @@
 package xb.hook.interceptor;
 
 
-import bean.User;
+import xb.entity.User;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

@@ -1,6 +1,6 @@
 package xb.randomDataFactory;
 
-import xb.common_utils.commonUtils.StringUtils;
+import xb.common_utils.StringUtils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

@@ -2,10 +2,9 @@ package xb.lowlevelConcurrency;
 
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.test.context.junit4.SpringRunner;
-import xb.common_utils.commonUtils.PrintUtil;
+import xb.common_utils.PrintUtil;
 
 import java.util.concurrent.*;
 
@@ -13,7 +12,6 @@ import java.util.concurrent.*;
 /**
  * Low-level concurrency
  */
-@RunWith(SpringRunner.class)
 public class SimpleThreadTest {
     private static Object lock = new Object();
     private static Object lock1 = new Object();

@@ -1,8 +1,7 @@
 package xb.commonAlgorithm;
 
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.File;
@@ -11,7 +10,6 @@ import java.util.List;
 import java.util.concurrent.*;
 
 @Slf4j
-@RunWith(SpringRunner.class)
 public class CommonAlgorithm {
     /**
      * Hash函数，用于将任意长度简化为128位长度的编码

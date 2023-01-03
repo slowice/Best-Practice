@@ -1,4 +1,4 @@
-package bean;
+package xb.entity;
 
 import lombok.Data;
 

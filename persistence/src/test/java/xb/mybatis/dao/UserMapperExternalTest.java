@@ -1,13 +1,12 @@
 package xb.mybatis.dao;
 
-import bean.User;
+import xb.entity.User;
 import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageHelper;
-import dto.UserDTO;
-import dto.UserRequest;
+import xb.dto.UserDTO;
+import xb.dto.UserRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
-import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;

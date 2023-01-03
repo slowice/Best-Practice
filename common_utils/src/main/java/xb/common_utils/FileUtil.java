@@ -1,4 +1,4 @@
-package xb.common_utils.commonUtils;
+package xb.common_utils;
 
 import org.apache.tomcat.util.http.fileupload.FileUtils;
 

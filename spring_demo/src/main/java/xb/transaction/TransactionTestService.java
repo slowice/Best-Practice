@@ -1,6 +1,6 @@
 package xb.transaction;
 
-import bean.User;
+import xb.entity.User;
 
 /**
  * 事务的隔离界别

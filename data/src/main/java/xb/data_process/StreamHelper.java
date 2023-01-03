@@ -1,6 +1,6 @@
 package xb.data_process;
 
-import bean.User;
+import xb.entity.User;
 import com.alibaba.fastjson.JSON;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

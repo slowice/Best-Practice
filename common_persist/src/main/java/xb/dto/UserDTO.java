@@ -1,9 +1,9 @@
-package dto;
+package xb.dto;
 
-import bean.UserRelation;
+import xb.entity.UserRelation;
 import lombok.Data;
-import bean.User;
-import bean.UserRole;
+import xb.entity.User;
+import xb.entity.UserRole;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.multipart.MultipartFile;
 

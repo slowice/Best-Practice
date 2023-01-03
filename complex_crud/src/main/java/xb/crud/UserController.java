@@ -1,9 +1,9 @@
 package xb.crud;
 
 
+import xb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import xb.bean.User;
 
 @RestController
 public class UserController {

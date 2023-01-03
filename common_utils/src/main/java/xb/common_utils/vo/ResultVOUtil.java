@@ -1,4 +1,4 @@
-package xb.common_utils.commonUtils.vo;
+package xb.common_utils.vo;
 
 public class ResultVOUtil {
     public static ResultVO success(Object object) {

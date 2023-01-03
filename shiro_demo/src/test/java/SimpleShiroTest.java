@@ -4,14 +4,14 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.realm.SimpleAccountRealm;
 import org.apache.shiro.subject.Subject;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 @Slf4j
 public class SimpleShiroTest {
     SimpleAccountRealm simpleAccountRealm = new SimpleAccountRealm();
 
-    @Before
+    @BeforeEach
     public void addUser(){
         simpleAccountRealm.addAccount("abg","123456");
     }

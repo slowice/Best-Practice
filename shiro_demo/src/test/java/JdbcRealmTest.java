@@ -5,7 +5,7 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.realm.jdbc.JdbcRealm;
 import org.apache.shiro.subject.Subject;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 @Slf4j
 public class JdbcRealmTest {

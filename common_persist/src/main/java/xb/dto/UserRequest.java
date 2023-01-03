@@ -1,4 +1,4 @@
-package dto;
+package xb.dto;
 
 import lombok.Data;
 

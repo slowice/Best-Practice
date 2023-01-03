@@ -13,14 +13,14 @@
 
 <!--region   开启事务注解:在使用@Transactional注解时需要配置 此标签的transaction-manager属性可以忽略-->
 <!--    <tx:annotation-driven transaction-manager="txManager"/>&lt;!&ndash; a PlatformTransactionManager is still required &ndash;&gt;-->
-<!--    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+<!--    <entity id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
 <!--        &lt;!&ndash; (this dependency is defined somewhere else) &ndash;&gt;-->
 <!--        <property name="dataSource" ref="dataSource"/>-->
-<!--    </bean>-->
+<!--    </entity>-->
 <!--endregion-->
 
 <!--region 和数据库关联的aop测试-->
-<!--    <bean id="transactionTestService" class="xb.transaction.TransactionTestServiceImpl"/>-->
+<!--    <entity id="transactionTestService" class="xb.transaction.TransactionTestServiceImpl"/>-->
     <!-- tx:advice标签中的txManager属性可以不写（前提是应用的事务管理器名称是transactionManager）   -->
     <tx:advice id="txAdvice" >
         <tx:attributes>
@@ -51,8 +51,8 @@
 <!--            <aop:advisor pointcut-ref="defaultServiceOperation" advice-ref="defaultTxAdvice"/>-->
 <!--            <aop:advisor pointcut-ref="noTxServiceOperation" advice-ref="noTxAdvice"/>-->
 <!--        </aop:config>-->
-<!--        <bean id="transactionAbstract" class="x.y.service.DefaultFooService"/>-->
-<!--        <bean id="transactionService" class="x.y.service.ddl.DefaultDdlManager"/>-->
+<!--        <entity id="transactionAbstract" class="x.y.service.DefaultFooService"/>-->
+<!--        <entity id="transactionService" class="x.y.service.ddl.DefaultDdlManager"/>-->
 <!--        <tx:advice id="defaultTxAdvice">-->
 <!--            <tx:attributes>-->
 <!--                <tx:method name="get*" read-only="true"/>-->

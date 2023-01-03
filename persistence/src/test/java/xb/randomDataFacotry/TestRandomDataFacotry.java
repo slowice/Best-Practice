@@ -1,7 +1,7 @@
 package xb.randomDataFacotry;
 
-import bean.User;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import xb.entity.User;
 import xb.ApplicationTests;
 import xb.randomDataFactory.DefaultRandomDataFactory;
 import xb.randomDataFactory.RandomDataFactory;

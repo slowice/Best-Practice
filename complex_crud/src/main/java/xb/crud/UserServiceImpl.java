@@ -1,6 +1,6 @@
 package xb.crud;
 
-import xb.bean.User;
+import xb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

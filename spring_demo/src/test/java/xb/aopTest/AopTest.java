@@ -1,6 +1,6 @@
 package xb.aopTest;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import xb.ApplicationTest;
 import xb.aop.AnnotationBasedAOPService;

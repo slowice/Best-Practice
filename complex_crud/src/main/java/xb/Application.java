@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan(basePackages = "xb.bean")
+@EntityScan(basePackages = "xb.entity")
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
