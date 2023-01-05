@@ -4,6 +4,7 @@ import xb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 
@@ -15,6 +16,11 @@ public class UserServiceImpl implements UserService {
     @Override
     public void add(User user) {
         userRepository.save(user);
+    }
+
+    @Override
+    public void addBatch(List<User> userList) {
+        userRepository.saveAll(userList);
     }
 
     @Override

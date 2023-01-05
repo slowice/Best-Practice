@@ -13,10 +13,15 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.context.WebApplicationContext;
+import xb.crud.UserService;
 import xb.entity.User;
 
 import java.net.URI;
+import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
@@ -25,15 +30,20 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @Slf4j
 @SpringBootTest()
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@EnableTransactionManagement
 class ApplicationTest {
     private MockMvc mockMvc;
 
     @Autowired
     WebApplicationContext webApplicationContext;
 
+    @Autowired
+    UserService userService;
+
     @BeforeEach
     void setUp() {
         mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
+        Assert.assertNotNull(userService);
     }
 
     @Test
@@ -73,5 +83,22 @@ class ApplicationTest {
                 )
                 .andExpect(status().isOk())
                 .andReturn();
+    }
+
+    /**
+     * 由于id重复此处批量新增会导致异常，从而触发回滚
+     * 另外如果使用了JPA的addall(),会强制要求开启事务管理
+     */
+    @Test
+    @Transactional
+    public void testAddBatch() throws Exception{
+        User u1 = new User();
+        u1.setIdUser("1");
+        User u2 = new User();
+        u2.setIdUser("2");
+        User u3 = new User();
+        u3.setIdUser("2");
+        List<User> userList = Arrays.asList(u1,u2,u3);
+        userService.addBatch(userList);
     }
 }
