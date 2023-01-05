@@ -1,4 +1,4 @@
-package xb;
+package xb.message_rabbitmq;
 
 import org.springframework.web.bind.annotation.RestController;
 

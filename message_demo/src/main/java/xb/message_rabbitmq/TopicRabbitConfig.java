@@ -1,4 +1,4 @@
-package xb;
+package xb.message_rabbitmq;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;

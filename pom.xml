@@ -24,7 +24,6 @@
         <module>simple_crud</module>
         <module>algorithm_study</module>
         <module>complex_crud</module>
-        <module>rabbitmq_demo</module>
         <module>gateway_demo</module>
         <module>nacos-provider</module>
         <module>exception_handler_demo</module>

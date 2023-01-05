@@ -1,4 +1,4 @@
-package xb;
+package xb.message_rabbitmq;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
