@@ -1,14 +1,14 @@
 <configuration>
 
     <appender name="STDOUT_xb" class="ch.qos.logback.core.ConsoleAppender">
-        <filter class="configuration.LogbackFilter"></filter>
+        <filter class="xb.log.configuration.LogbackFilter"></filter>
         <encoder>
             <pattern>[%thread] %-5level %logger{35} --- %magenta(%msg) %n</pattern>
         </encoder>
     </appender>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-        <filter class="configuration.LogbackFilterNormal"></filter>
+        <filter class="xb.log.configuration.LogbackFilterNormal"></filter>
         <encoder>
             <pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</pattern>
         </encoder>

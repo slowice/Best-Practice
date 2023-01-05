@@ -11,11 +11,11 @@ public class SampleFilter extends Filter<ILoggingEvent> {
     @Override
     public FilterReply decide(ILoggingEvent event) {
         //待排除的包的路径
-        String excludePackage = "xb.hook.listener.sub";
+        String excludePackage = "xb";
 
         String logger = event.getLoggerName();
-        //包含该路径则不打印
-        if (logger.contains(excludePackage)) {
+        //不包含该路径则不打印
+        if (!logger.contains(excludePackage)) {
             return FilterReply.DENY;
         } else {
             return FilterReply.ACCEPT;

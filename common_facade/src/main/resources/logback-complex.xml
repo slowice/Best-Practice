@@ -26,31 +26,35 @@
     </appender>
 
     <!--logstash-->
-    <!--<appender name="logstash" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
-        <!--<file>${LOG_FILE2}.json</file>-->
-        <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
-            <!--&lt;!&ndash; daily rollover &ndash;&gt;-->
-            <!--<fileNamePattern>logFile2.%d{yyyy-MM-dd}.log</fileNamePattern>-->
-            <!--&lt;!&ndash; keep 30 days' worth of history capped at 3GB total size &ndash;&gt;-->
-            <!--<maxHistory>30</maxHistory>-->
-            <!--<totalSizeCap>3GB</totalSizeCap>-->
-        <!--</rollingPolicy>-->
-        <!--<encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">-->
-            <!--<pattern>-->
-                <!--{-->
-                <!--"severity": "%level",-->
-                <!--"service": "123",-->
-                <!--"trace": "%X{X-B3-Traceid:-}",-->
-                <!--"span": "%X{X-B3-Spanid:-}",-->
-                <!--"exportable": "%X{X-Span-Export:一} ”,-->
-                <!--"pid": "${PIO:-}",-->
-                <!--"thread": "%thread",-->
-                <!--"class": "%logger{40}",-->
-                <!--"rest": "%message"-->
-                <!--}-->
-            <!--</pattern>-->
-        <!--</encoder>-->
-    <!--</appender>-->
+    <appender name="LOGSTASH"
+              class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+        <filter class="xb.log.SampleFilter"></filter>
+        <!--配置logStash 服务地址 -->
+        <destination>127.0.0.1:4560</destination>
+        <!-- 日志输出编码 -->
+        <encoder charset="UTF-8"
+                 class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <providers>
+                <timestamp>
+                    <timeZone>UTC</timeZone>
+                </timestamp>
+<!--                此处应该有2个pattern标签，否则输出到logstash的日志会只有@timestamps和@version-->
+                <pattern>
+                    <pattern>
+                        {
+                        "logLevel": "%level",
+                        "serviceName": "${appName:-}",
+                        "pid": "${PID:-}",
+                        "thread": "%thread",
+                        "class": "%logger{40}",
+                        "rest": "%message"
+                        }
+                    </pattern>
+                </pattern>
+
+            </providers>
+        </encoder>
+    </appender>
 
     <!--region encoder-->
 <!-- 9.9:最小宽9最大宽9 -9.9:最小宽9最大宽9并且左对齐 logger:日志的生产者 %-5level日志等级被调整为向左5个字符宽 relative从应用启动到日志输出为止的时间 thread线程名称-->
@@ -61,9 +65,11 @@
         </encoder>
     </appender>
 
+<!--    日志标红，可以用来检测配置文件是否生效了-->
     <!--color contains :"%black", "%red", "%green","%yellow","%blue", "%magenta","%cyan", "%white", "%gray",
   "%boldRed","%boldGreen", "%boldYellow", "%boldBlue", "%boldMagenta""%boldCyan", "%boldWhite" and "%highlight" -->
     <appender name="STDOUT_RED" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="xb.log.SampleFilter"></filter>
         <encoder>
             <pattern>%red(%-4relative [%thread] %-5level %logger{35} - %msg) %n</pattern>
         </encoder>
@@ -88,11 +94,11 @@
 
     <root level="INFO">
 <!--        配置几个appender就会打印几个日志，若包含相同内容，则会重复打印-->
-        <appender-ref ref="STDOUT"/>
-<!--        <appender-ref ref="STDOUT_RED"/>-->
-        <!--<appender-ref ref="STDOUT_EVA"/>-->
+<!--        <appender-ref ref="STDOUT"/>-->
+        <appender-ref ref="STDOUT_RED"/>
+<!--        <appender-ref ref="STDOUT_EVA"/>-->
 <!--        <appender-ref ref="STDOUT_FILTER"/>-->
-        <appender-ref ref="FILE" />
-        <!--<appender-ref ref="logstash"/>-->
+<!--        <appender-ref ref="FILE" />-->
+<!--        <appender-ref ref="LOGSTASH"/>-->
     </root>
 </configuration>

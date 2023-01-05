@@ -10,3 +10,5 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect #这条属性的必要性有待确定
+logging:
+  config: classpath:logback-complex.xml
