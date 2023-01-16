@@ -1,14 +1,23 @@
 package xb.crud;
 
 
+import org.springframework.beans.factory.annotation.Value;
 import xb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class UserController {
+    @Value("${spring.application.name}")
+    private String applicationName;
+
     @Autowired
     UserService userService;
+
+    @GetMapping("/")
+    public String root(){
+        return String.format("this is %s", applicationName);
+    }
 
     @PostMapping("/crud_add")
     public String add(@RequestBody User user){

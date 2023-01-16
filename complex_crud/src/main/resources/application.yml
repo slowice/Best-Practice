@@ -1,6 +1,6 @@
 spring:
   application:
-    name: crud
+    name: complex_crud
   datasource:
     url: jdbc:mysql://localhost:3306/best_practice?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai #每个参数的必要性有待确定
     username: root

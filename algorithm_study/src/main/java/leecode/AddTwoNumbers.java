@@ -1,6 +1,6 @@
 package leecode;
 
-//该题考察的是链表数据结构的读与写
+//该题考察的是链表数据结构的读与写，即遍历，取值，赋值
 public class AddTwoNumbers {
     public static class ListNode {
         int val;
