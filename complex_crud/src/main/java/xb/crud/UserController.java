@@ -2,9 +2,12 @@ package xb.crud;
 
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.multipart.MultipartFile;
 import xb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.io.IOException;
 
 @RestController
 public class UserController {
@@ -41,5 +44,10 @@ public class UserController {
     public String query(@RequestParam String idUser){
         String name = userService.query(idUser);
         return name;
+    }
+
+    @PostMapping("/crud_fileupload")
+    public String handleFormUpload(@RequestParam("file") MultipartFile file) {
+        return userService.fileUpload(file);
     }
 }

@@ -1,9 +1,11 @@
 package xb.crud;
 
+import org.springframework.web.multipart.MultipartFile;
 import xb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 
@@ -39,5 +41,19 @@ public class UserServiceImpl implements UserService {
         String name = userOpt.map(user -> user.getName()).orElse("查无此人");
         System.out.println(name);
         return name;
+    }
+
+    @Override
+    public String fileUpload(MultipartFile file) {
+        if (!file.isEmpty()) {
+            try {
+                byte[] bytes = file.getBytes();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            // store the bytes somewhere
+            return "uploadSuccess";
+        }
+        return "uploadFailure";
     }
 }

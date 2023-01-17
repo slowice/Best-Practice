@@ -1,6 +1,7 @@
 package xb.crud;
 
 
+import org.springframework.web.multipart.MultipartFile;
 import xb.entity.User;
 
 import java.util.List;
@@ -11,4 +12,5 @@ public interface UserService {
     void delete(String userId);
     void update(User user);
     String query(String userId);
+    String fileUpload(MultipartFile file);
 }
