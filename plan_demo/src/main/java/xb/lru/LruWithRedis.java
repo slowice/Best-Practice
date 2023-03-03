@@ -1,4 +1,4 @@
-package lru;
+package xb.lru;
 
 public class LruWithRedis {
     /**

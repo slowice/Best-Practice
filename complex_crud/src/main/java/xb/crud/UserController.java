@@ -7,18 +7,30 @@ import xb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class UserController {
+    static class OOMObject{
+    }
+    private static final List<OOMObject> testOOMMap = new ArrayList<>();
+
     @Value("${spring.application.name}")
     private String applicationName;
 
     @Autowired
     UserService userService;
 
-    @GetMapping("/")
-    public String root(){
+    @GetMapping("/healthcheck")
+    public String root() throws InterruptedException {
+        while(true){
+            testOOMMap.add(new OOMObject());
+
+            if(false){
+                break;
+            }
+        }
         return String.format("this is %s", applicationName);
     }
 
