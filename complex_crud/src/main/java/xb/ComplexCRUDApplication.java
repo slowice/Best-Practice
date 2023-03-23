@@ -14,15 +14,16 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EntityScan(basePackages = "xb.entity")
 //开启声明式事务管理
 @EnableTransactionManagement
-public class ComplexCRUDApplication extends SpringBootServletInitializer {
+//public class ComplexCRUDApplication extends SpringBootServletInitializer {
+public class ComplexCRUDApplication {
     public static void main(String[] args) {
         SpringApplication.run(ComplexCRUDApplication.class, args);
     }
 
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        // 配置Springboot的应用环境
-        SpringApplicationBuilder sources = builder.sources(ComplexCRUDApplication.class);
-        return sources;
-    }
+    //@Override
+//    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+//        // 配置Springboot的应用环境
+//        SpringApplicationBuilder sources = builder.sources(ComplexCRUDApplication.class);
+//        return sources;
+//    }
 }

@@ -17,7 +17,6 @@
         <module>message_demo</module>
         <module>redis_demo</module>
         <module>persistence</module>
-        <module>plan_demo</module>
         <module>elk_demo</module>
         <module>java_basis</module>
         <module>spring_cloud</module>
@@ -47,7 +46,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <!--    AOP    -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

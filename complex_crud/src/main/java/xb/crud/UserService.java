@@ -4,6 +4,8 @@ package xb.crud;
 import org.springframework.web.multipart.MultipartFile;
 import xb.entity.User;
 
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.util.List;
 
 public interface UserService {
@@ -12,5 +14,7 @@ public interface UserService {
     void delete(String userId);
     void update(User user);
     String query(String userId);
-    String fileUpload(MultipartFile file);
+    String fileUpload(String userId, MultipartFile file);
+
+    String fileDownload(String fileId, HttpServletResponse response) throws IOException;
 }

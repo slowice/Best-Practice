@@ -16,4 +16,12 @@ public class FileUtil {
         File file = new File(path);
         FileUtils.cleanDirectory(file);
     }
+
+    public static void fileUpload() throws Exception {
+
+    }
+
+    public static void fileDowload() throws Exception {
+
+    }
 }
