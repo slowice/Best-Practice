@@ -99,6 +99,6 @@
 <!--        <appender-ref ref="STDOUT_EVA"/>-->
 <!--        <appender-ref ref="STDOUT_FILTER"/>-->
 <!--        <appender-ref ref="FILE" />-->
-<!--        <appender-ref ref="LOGSTASH"/>-->
+        <appender-ref ref="LOGSTASH"/>
     </root>
 </configuration>

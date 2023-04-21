@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/jq/jquery-3.5.1.min.js">
+    </script>
+</head>
+<body>
+    hello world
+    <div>
+        <input type="file" id="f1" />
+    </div>
+    <input type="button" id="uploadBTN" value="提交"/>
+
+    <script>
+        $(function () {
+            $('#uploadBTN').on('click', function () {
+                console.log('123123')
+                var files = $('#f1')[0].files
+                if (files.length <= 0) {
+                    return alert('请选择文件后再上传！')
+                }
+
+                var fd = new FormData()
+                fd.append('attachment', files)
+
+                // 发起 jQuery 的 Ajax 请求，上传文件
+                $.ajax({
+                    method: 'POST',
+                    url: 'http://localhost:8080/crud_fileupload',
+                    data: fd,
+                    // --------
+                    processData: false,
+                    contentType: false,
+                    // -------- 只要是上传文件这两个属性值，一定要设置为false，这是固定写法
+                    success: function (res) {
+                        console.log(res)
+                    }
+                })
+            })
+        })
+        // function submitForm() {
+        //     var data = new FormData();
+        //     data.append("attachment", $('#f1')[0].files);
+        //     var xhr = new XMLHttpRequest();
+        //     xhr.addEventListener("readystatechange", function() {
+        //         if(this.readyState === 4) {
+        //             console.log(this.responseText);
+        //         }
+        //     });
+        //     xhr.open("POST", "localhost:8080/crud_fileupload");
+        //     xhr.send(data);
+        // }
+    </script>
+</body>
+</html>

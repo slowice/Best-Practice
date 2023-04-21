@@ -2,8 +2,11 @@ package xb.crud;
 
 
 import io.swagger.annotations.ApiOperation;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.FileSystemResource;
+import org.springframework.transaction.support.TransactionSynchronizationManager;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.web.multipart.MultipartFile;
 import xb.entity.User;
@@ -21,6 +24,8 @@ import java.util.List;
 
 @RestController
 public class UserController {
+    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
+
     static class OOMObject{
     }
     private static final List<OOMObject> testOOMMap = new ArrayList<>();
@@ -34,13 +39,17 @@ public class UserController {
     // 健康检查
     @GetMapping("/healthcheck")
     public String root() throws InterruptedException {
-        while(true){
-            testOOMMap.add(new OOMObject());
-
-            if(false){
-                break;
-            }
-        }
+//        while(true){
+//            testOOMMap.add(new OOMObject());
+//            if(false){
+//                break;
+//            }
+//        }
+        boolean b1 = TransactionSynchronizationManager.isSynchronizationActive();
+        System.out.println(b1);
+        boolean b2 = TransactionSynchronizationManager.isActualTransactionActive();
+        System.out.println(b2);
+        logger.info("ok");
         return String.format("this is %s", applicationName);
     }
 

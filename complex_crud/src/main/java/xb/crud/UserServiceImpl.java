@@ -1,17 +1,9 @@
 package xb.crud;
 
-import org.apache.commons.codec.Charsets;
-import org.apache.tomcat.util.digester.DocumentProperties;
 import org.apache.tomcat.util.http.fileupload.IOUtils;
-import org.springframework.boot.autoconfigure.http.HttpProperties;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
-import org.springframework.http.MediaType;
 import org.springframework.util.FileCopyUtils;
-import org.springframework.util.PathMatcher;
-import org.springframework.util.ResourceUtils;
 import org.springframework.web.multipart.MultipartFile;
 import xb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +11,6 @@ import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
-import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.file.Files;
 import java.nio.file.Path;

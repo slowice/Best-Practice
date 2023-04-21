@@ -24,9 +24,10 @@
         <module>algorithm_study</module>
         <module>complex_crud</module>
         <module>gateway_demo</module>
-        <module>nacos-provider</module>
         <module>exception_handler_demo</module>
         <module>common_persist</module>
+        <module>nacos</module>
+        <module>jenkins</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>
@@ -35,10 +36,14 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Greenwich.SR6</spring-cloud.version>
+        <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
+        <spring-cloud-alibaba.version>2.2.9.RELEASE</spring-cloud-alibaba.version>
+        <springboot.version>2.3.12.RELEASE</springboot.version>
     </properties>
 
     <dependencies>
@@ -83,16 +88,31 @@
     </dependencies>
 
     <dependencyManagement>
-            <dependencies>
-                <dependency>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-dependencies</artifactId>
-                    <version>2.2.1.RELEASE</version>
-                    <!--这两句话很重要，要不然会爆红-->
-                    <type>pom</type>
-                    <scope>import</scope>
-                </dependency>
-            </dependencies>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${springboot.version}</version>
+                <!--这两句话很重要，要不然会爆红-->
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+        </dependencies>
     </dependencyManagement>
 
     <build>
