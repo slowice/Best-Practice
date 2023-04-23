@@ -45,12 +45,7 @@ public class UserController {
 //                break;
 //            }
 //        }
-        boolean b1 = TransactionSynchronizationManager.isSynchronizationActive();
-        System.out.println(b1);
-        boolean b2 = TransactionSynchronizationManager.isActualTransactionActive();
-        System.out.println(b2);
-        logger.info("ok");
-        return String.format("this is %s", applicationName);
+        return null;
     }
 
     // 添加
