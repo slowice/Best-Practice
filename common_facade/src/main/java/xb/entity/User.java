@@ -1,7 +1,6 @@
 package xb.entity;
 
 import lombok.Data;
-import org.springframework.web.multipart.MultipartFile;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

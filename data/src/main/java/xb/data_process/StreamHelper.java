@@ -1,11 +1,12 @@
 package xb.data_process;
 
-import xb.entity.User;
+
 import com.alibaba.fastjson.JSON;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
+import xb.entity.User;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>data</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>data</name>
     <description>Demo project for DATA</description>
 
@@ -22,12 +22,12 @@
         <dependency>
             <groupId>xb</groupId>
             <artifactId>common_utils</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>xb</groupId>
             <artifactId>common_facade</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
