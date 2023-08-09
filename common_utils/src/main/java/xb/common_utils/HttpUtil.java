@@ -3,6 +3,7 @@ package xb.common_utils;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.parser.Feature;
 import org.apache.commons.codec.digest.DigestUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -14,10 +15,11 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
 import java.net.SocketTimeoutException;
+import java.util.Map;
 
 
 public class HttpUtil {
-    public static String doGet(String url) {
+    public static String doGet(String url,Map<String,String> headers) {
         CloseableHttpClient client = null;
         CloseableHttpResponse response = null;
         try {
@@ -25,6 +27,11 @@ public class HttpUtil {
             client = HttpClients.createDefault();
             // 构建请求对象
             HttpGet get = new HttpGet(url);
+            if(!headers.isEmpty()){
+                for(String key : headers.keySet()){
+                    get.addHeader(key, headers.get(key));
+                }
+            }
             // 设置超时时间 ConnectTimeout:客户端服务器建立链接的超时时间
             // ConnectionRequestTimeout:从连接池获取链接的超时时间 SocketTimeout从服务端读取数据的超时时间
             RequestConfig config = RequestConfig.custom()
@@ -56,48 +63,42 @@ public class HttpUtil {
         }
     }
 
-    public static String doPost(String url, String username, String password, String tenantUrl) {
+    public static String doPost(String url, Map<String,String> headers, String content) {
         CloseableHttpClient client = null;
         CloseableHttpResponse response = null;
-        String idToken = null;
-
+        String result = "";
         try {
             client = HttpClients.createDefault();
             HttpPost post = new HttpPost(url);
-            post.setHeader("Content-Type", "application/json;charset=utf-8");
-            post.setHeader("Accept", "application/json;charset=utf-8");
+            if(headers.isEmpty()){
+                post.setHeader("Content-Type", "application/json;charset=utf-8");
+                post.setHeader("Accept", "application/json;charset=utf-8");
+            } else {
+                for(String key : headers.keySet()){
+                    post.addHeader(key, headers.get(key));
+                }
+            }
             RequestConfig config = RequestConfig.custom()
+
                     .setConnectTimeout(10000)
                     .setConnectionRequestTimeout(3000)
                     .setSocketTimeout(20000)
                     .build();
             post.setConfig(config);
 
-            JSONObject json = new JSONObject();
-            json.put("username", username);
-            json.put("password", DigestUtils.md5Hex(password));
-            json.put("tenantUrl", tenantUrl);
-            post.setEntity(new StringEntity(json.toString(), "UTF-8"));
+//            JSONObject json = new JSONObject();
+//            json.put("username", username);
+//            json.put("password", DigestUtils.md5Hex(password));
+//            json.put("tenantUrl", tenantUrl);
+            post.setEntity(new StringEntity(StringUtils.normalizeSpace(content), "UTF-8"));
             response = client.execute(post);
-
             HttpEntity entity = response.getEntity();
-            String result = EntityUtils.toString(entity);
-
-            if (result != null && !"".equals(result.trim())) {
-                JSONObject rjo = JSONObject.parseObject(result, Feature.OrderedField);
-                if (rjo != null && rjo.containsKey("retCode")) {
-                    int retCode = rjo.getInteger("retCode");
-                    if (retCode == 0 && rjo.containsKey("data")) {
-                        JSONObject data = rjo.getJSONObject("data");
-                        if (null != data && data.containsKey("idToken")) {
-                            idToken = data.getString("idToken");
-                        }
-                    }
-                }
-            }
+            result = EntityUtils.toString(entity);
         } catch (SocketTimeoutException e) {
+            e.printStackTrace();
             // log 获取token超时
         } catch (Exception e) {
+            e.printStackTrace();
             // log 其它异常
         } finally {
             try {
@@ -112,6 +113,6 @@ public class HttpUtil {
                 // log
             }
         }
-        return idToken;
+        return result;
     }
 }

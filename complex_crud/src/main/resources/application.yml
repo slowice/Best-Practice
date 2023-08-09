@@ -1,16 +1,17 @@
 spring:
-  application:
-    name: complex_crud
   datasource:
     url: jdbc:mysql://localhost:3306/best_practice?characterEncoding=utf8&serverTimezone=Asia/Shanghai #每个参数的必要性有待确定
     username: root
-    password: 123456
+    password: dy82341733
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect #这条属性的必要性有待确定
+  application:
+    name: complex_crud
 
-logging:
-  config: classpath:logback-complex.xml
-
+#logging:
+ # config: classpath:logback-complex.xml
+server:
+  port: 8081

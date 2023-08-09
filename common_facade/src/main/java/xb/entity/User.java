@@ -13,7 +13,7 @@ import java.util.Date;
  */
 @Data
 @Entity
-@Table(name = "user")
+@Table(name = "xb_user")
 public class User implements Serializable {
 
     @Id
@@ -23,11 +23,5 @@ public class User implements Serializable {
 
     private String name;
 
-    private Date birthday;
 
-    private int age;
-
-    private String mobilePhone;
-
-    private int type;
 }
