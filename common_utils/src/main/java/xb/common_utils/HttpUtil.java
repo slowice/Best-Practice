@@ -45,6 +45,45 @@ public class HttpUtil {
             // 整理返回值
             HttpEntity entity = response.getEntity();
             String result = EntityUtils.toString(entity);
+
+            String configXml = "<flow-definition plugin=\"workflow-job@2.40\">\n" +
+                    "<description/>\n" +
+                    "<keepDependencies>false</keepDependencies>\n" +
+                    "<properties/>\n" +
+                    "<definition class=\"org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition\" plugin=\"workflow-cps@2.90\">\n" +
+                    "<script>echo 'hello'</script>\n" +
+                    "<sandbox>true</sandbox>\n" +
+                    "</definition>\n" +
+                    "<triggers/>\n" +
+                    "<disabled>false</disabled>\n" +
+                    "</flow-definition>";
+            String crumb = result.split(":")[1];
+            headers.put("Content-Type", "text/xml");
+            headers.put("Jenkins-Crumb", crumb);
+
+            HttpPost post = new HttpPost("http://localhost:8080/jenkins/createItem?name=test123");
+            if(headers.isEmpty()){
+                post.setHeader("Content-Type", "application/json;charset=utf-8");
+                post.setHeader("Accept", "application/json;charset=utf-8");
+            } else {
+                for(String key : headers.keySet()){
+                    post.addHeader(key, headers.get(key));
+                }
+            }
+
+            post.setConfig(config);
+
+//            JSONObject json = new JSONObject();
+//            json.put("username", username);
+//            json.put("password", DigestUtils.md5Hex(password));
+//            json.put("tenantUrl", tenantUrl);
+            post.setEntity(new StringEntity(StringUtils.normalizeSpace(configXml), "UTF-8"));
+            response = client.execute(post);
+            HttpEntity entity2 = response.getEntity();
+            result = EntityUtils.toString(entity2);
+
+
+
             return result;
         } catch (Exception e) {
             // log
