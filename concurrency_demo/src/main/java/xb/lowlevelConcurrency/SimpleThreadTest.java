@@ -3,8 +3,7 @@ package xb.lowlevelConcurrency;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
-import org.springframework.test.context.junit4.SpringRunner;
-import xb.common_utils.PrintUtil;
+import xb.common.PrintUtil;
 
 import java.util.concurrent.*;
 

@@ -6,7 +6,7 @@
 
     <!-- services -->
 
-    <bean id="foo1" class="xb.ioc.myIocContainer.Foo1">
+    <bean id="foo1" class="xb.spring.ioc.myIocContainer.Foo1">
         <property name="id" value="1"></property>
         <property name="name" value="abg"></property>
         <!-- additional collaborators and configuration for this entity go here -->

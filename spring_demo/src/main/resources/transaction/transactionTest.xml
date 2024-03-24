@@ -30,15 +30,15 @@
     </tx:advice>
 
     <aop:config>
-        <aop:pointcut id="pointcutForService" expression="execution(* xb.transaction.TransactionTestService.testRollBackForException(..))"/>
+        <aop:pointcut id="pointcutForService" expression="execution(* xb.spring.transaction.TransactionTestService.testRollBackForException(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcutForService"/>
     </aop:config>
 <!--    endregion-->
 
 <!--region抽象aop测试，不连数据库-->
-    <bean id="transactionTestAbstract" class="xb.transaction.TransactionTestAbstractImpl"/>
+    <bean id="transactionTestAbstract" class="xb.spring.transaction.TransactionTestAbstractImpl"/>
     <aop:config>
-        <aop:pointcut id="pointcutFroAbstract" expression="execution(* xb.transaction.TransactionTestAbstractImpl.*(..))"/>
+        <aop:pointcut id="pointcutFroAbstract" expression="execution(* xb.spring.transaction.TransactionTestAbstractImpl.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcutFroAbstract"/>
     </aop:config>
     <!--endregion-->

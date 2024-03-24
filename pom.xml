@@ -8,24 +8,27 @@
     <modules>
         <module>common_facade</module>
         <module>common_utils</module>
-<!--        <module>data</module>-->
+<!--        <module>simple_crud</module>-->
+<!--        <module>complex_crud</module>-->
+<!--        <module>jenkins</module>-->
+<!--        <module>spring_demo</module>-->
+<!--        <module>spring_cloud</module>-->
+
+
+        <!--        <module>data</module>-->
 <!--        <module>shiro_demo</module>-->
 <!--        <module>concurrency_demo</module>-->
 <!--        <module>front_end_study</module>-->
-<!--        <module>spring_demo</module>-->
 <!--        <module>message_demo</module>-->
 <!--        <module>redis_demo</module>-->
 <!--        <module>persistence</module>-->
 <!--        <module>elk_demo</module>-->
 <!--        <module>java_basis</module>-->
-<!--        <module>spring_cloud</module>-->
-        <module>simple_crud</module>
 <!--        <module>algorithm_study</module>-->
-        <module>complex_crud</module>
 <!--        <module>gateway_demo</module>-->
 <!--        <module>exception_handler_demo</module>-->
 <!--        <module>nacos</module>-->
-<!--        <module>jenkins</module>-->
+
     </modules>
 
     <modelVersion>4.0.0</modelVersion>

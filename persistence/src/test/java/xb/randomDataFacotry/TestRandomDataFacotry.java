@@ -3,8 +3,8 @@ package xb.randomDataFacotry;
 import org.junit.jupiter.api.Test;
 import xb.entity.User;
 import xb.ApplicationTests;
-import xb.randomDataFactory.DefaultRandomDataFactory;
-import xb.randomDataFactory.RandomDataFactory;
+import xb.persistence.randomDataFactory.DefaultRandomDataFactory;
+import xb.persistence.randomDataFactory.RandomDataFactory;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;

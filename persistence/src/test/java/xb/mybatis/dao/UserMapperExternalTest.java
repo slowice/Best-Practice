@@ -11,6 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 import xb.ApplicationTests;
+import xb.persistence.mybatis.dao.UserMapper;
+import xb.persistence.mybatis.dao.UserMapperExternal;
 
 import java.util.ArrayList;
 import java.util.Arrays;

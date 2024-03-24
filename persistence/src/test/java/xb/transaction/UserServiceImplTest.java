@@ -3,8 +3,7 @@ package xb.transaction;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import xb.ApplicationTests;
-
-import java.util.ArrayList;
+import xb.persistence.transaction.UserService;
 
 public class UserServiceImplTest extends ApplicationTests {
     @Autowired

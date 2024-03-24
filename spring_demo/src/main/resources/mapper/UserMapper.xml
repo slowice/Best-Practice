@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="xb.dao.UserMapper">
-  <resultMap id="BaseResultMap" type="xb.entity.User">
+<mapper namespace="xb.spring.dao.UserMapper">
+  <resultMap id="BaseResultMap" type="xb.common.entity.User">
     <id column="id_user" jdbcType="CHAR" property="idUser" />
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="birthday" jdbcType="TIMESTAMP" property="birthday" />
@@ -10,13 +10,13 @@
     delete from user
     where id_user = #{idUser,jdbcType=CHAR}
   </delete>
-  <insert id="insert" parameterType="xb.entity.User">
+  <insert id="insert" parameterType="xb.common.entity.User">
     insert into user (id_user, name, birthday
       )
     values (#{idUser,jdbcType=CHAR}, #{name,jdbcType=VARCHAR}, #{birthday,jdbcType=TIMESTAMP}
       )
   </insert>
-  <update id="updateByPrimaryKey" parameterType="xb.entity.User">
+  <update id="updateByPrimaryKey" parameterType="xb.common.entity.User">
     update user
     set name = #{name,jdbcType=VARCHAR},
       birthday = #{birthday,jdbcType=TIMESTAMP}

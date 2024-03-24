@@ -3,8 +3,7 @@ package xb;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
-import xb.mybatis.dao.UserMapper;
+import xb.persistence.mybatis.dao.UserMapper;
 
 @SpringBootTest
 public class ApplicationTests {

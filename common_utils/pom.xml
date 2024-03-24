@@ -13,10 +13,6 @@
     <artifactId>common_utils</artifactId>
     <version>0.0.1</version>
 <!--    <packaging>jar</packaging>-->
-
-<!--    <name>common_utils</name>-->
-<!--    <description>Demo project for Spring Boot</description>-->
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -27,7 +23,7 @@
         <dependency>
             <groupId>xb</groupId>
             <artifactId>common_facade</artifactId>
-            <version>0.0.1</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
 <!--        <dependency>-->
@@ -52,6 +48,7 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.7</version>
         </dependency>
+
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>

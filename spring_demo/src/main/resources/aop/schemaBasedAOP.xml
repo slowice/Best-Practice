@@ -9,10 +9,10 @@
 <!--    所有aspcet advice标签必须写在aop:config标签中-->
     <aop:config>
         <aop:aspect ref="schemaBasedAOP">
-            <aop:pointcut id="cut1" expression="execution(* xb.aop.SchemaBasedAOPAspect.*(..))"/>
+            <aop:pointcut id="cut1" expression="execution(* xb.spring.aop.SchemaBasedAOPAspect.*(..))"/>
         </aop:aspect>
 
     </aop:config>
-    <bean id="schemaBasedAOP" class="xb.aop.SchemaBasedAOPAspect">
+    <bean id="schemaBasedAOP" class="xb.spring.aop.SchemaBasedAOPAspect">
     </bean>
 </beans>

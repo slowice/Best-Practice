@@ -11,7 +11,7 @@ spring:
   application:
     name: complex_crud
 
-#logging:
- # config: classpath:logback-complex.xml
+logging:
+  config: classpath:logback-complex.xml
 server:
   port: 8081

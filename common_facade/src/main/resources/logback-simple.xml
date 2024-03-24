@@ -3,7 +3,7 @@
 
     <!--    日志标红，可以用来检测配置文件是否生效了-->
     <appender name="STDOUT_RED" class="ch.qos.logback.core.ConsoleAppender">
-        <filter class="xb.log.SampleFilter"></filter>
+        <filter class="xb.common.log.SampleFilter"></filter>
         <encoder>
             <pattern>%red(%-4relative [%thread] %-5level %logger{35} - %msg) %n</pattern>
         </encoder>

@@ -2,7 +2,7 @@ package xb.crud;
 
 
 import org.springframework.web.multipart.MultipartFile;
-import xb.entity.User;
+import xb.common.entity.User;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

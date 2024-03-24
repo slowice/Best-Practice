@@ -6,7 +6,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
-import xb.entity.User;
+import xb.common.entity.User;
 
 import java.util.ArrayList;
 import java.util.List;

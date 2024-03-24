@@ -1,10 +1,10 @@
 package xb.data_process.json;
 
-import xb.entity.User;
+import xb.common.entity.User;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import lombok.extern.slf4j.Slf4j;
-import xb.common_utils.StringUtils;
+import xb.common.utils.StringUtils;
 
 import java.util.Arrays;
 import java.util.List;

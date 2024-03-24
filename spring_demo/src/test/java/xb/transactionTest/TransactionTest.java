@@ -1,10 +1,10 @@
 package xb.transactionTest;
 
 import org.junit.jupiter.api.Test;
-import xb.entity.User;
+import xb.common.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import xb.ApplicationTest;
-import xb.transaction.TransactionTestService;
+import xb.spring.transaction.TransactionTestService;
 
 import java.util.concurrent.TimeUnit;
 
