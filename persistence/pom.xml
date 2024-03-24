@@ -7,7 +7,7 @@
         <groupId>xb</groupId>
         <version>1.0-SNAPSHOT</version>
 <!--        ../pom.xml是默认值-->
-<!--        <relativePath>../pom.xml</relativePath>-->
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -17,12 +17,12 @@
         <dependency>
             <groupId>xb</groupId>
             <artifactId>common_utils</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>xb</groupId>
             <artifactId>common_facade</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
 <!--        mybatis-->
         <dependency>

@@ -16,7 +16,6 @@ public class JenkinsApiImpl implements JenkinsApi{
     @Override
     public Result createJob(@RequestPart("jobName")String jobName, @RequestPart(name = "jobConfigXml", required = false)String jobConfigXml) {
         jenkinsHelper.createJob(jobName, jobConfigXml);
-        new Object(
         return new Result(Result.OK);
     }
 

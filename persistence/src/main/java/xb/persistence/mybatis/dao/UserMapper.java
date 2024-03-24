@@ -1,7 +1,7 @@
 package xb.persistence.mybatis.dao;
 
-import xb.entity.User;
 import org.apache.ibatis.annotations.Mapper;
+import xb.common.entity.User;
 
 import java.util.List;
 

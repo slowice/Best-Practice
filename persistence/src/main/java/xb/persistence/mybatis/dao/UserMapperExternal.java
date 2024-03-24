@@ -1,9 +1,9 @@
 package xb.persistence.mybatis.dao;
 
-import xb.entity.User;
-import xb.entity.UserRole;
-import xb.dto.UserDTO;
-import xb.dto.UserRequest;
+import xb.common.entity.User;
+import xb.common.entity.UserRole;
+import xb.common.dto.UserDTO;
+import xb.common.dto.UserRequest;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

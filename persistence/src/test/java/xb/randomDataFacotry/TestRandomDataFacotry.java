@@ -1,7 +1,7 @@
 package xb.randomDataFacotry;
 
 import org.junit.jupiter.api.Test;
-import xb.entity.User;
+import xb.common.entity.User;
 import xb.ApplicationTests;
 import xb.persistence.randomDataFactory.DefaultRandomDataFactory;
 import xb.persistence.randomDataFactory.RandomDataFactory;

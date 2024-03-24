@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="xb.persistence.mybatis.dao.UserMapperExternal">
 
-  <resultMap id="BaseResultMap" type="xb.entity.User">
+  <resultMap id="BaseResultMap" type="xb.common.entity.User">
     <id column="id_user" jdbcType="CHAR" property="idUser" />
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="birthday" jdbcType="TIMESTAMP" property="birthday" />
@@ -10,7 +10,7 @@
     <!--<result column="mobile_phone" jdbcType="VARCHAR" property="mobilePhone" />-->
   </resultMap>
 
-  <resultMap id="UserRelation" type="xb.dto.UserDTO" extends="BaseResultMap">
+  <resultMap id="UserRelation" type="xb.common.dto.UserDTO" extends="BaseResultMap">
     <!--<collection property="roleList" column="userId = id_user" select="queryRoles"/>-->
     <!--<association property="partner" resultMap="BaseResultMap"/>-->
   </resultMap>
@@ -19,7 +19,7 @@
   复杂查询ResultMap
   construct要在id上面,顺序要保持一致
 -->
-  <resultMap id="complexResultMap" type="xb.dto.UserDTO" extends="BaseResultMap">
+  <resultMap id="complexResultMap" type="xb.common.dto.UserDTO" extends="BaseResultMap">
     <!--要指定javaType，否则默认object-->
     <constructor>
       <idArg  column="id_user" javaType="String"/>
@@ -29,12 +29,12 @@
     <result property="name" column="name"/>
     <result property="birthday" column="birthday"/>
 
-    <association property="userRelation" javaType="xb.entity.UserRelation">
+    <association property="userRelation" javaType="xb.common.entity.UserRelation">
       <id property="userId" column="id_user" />
       <result property="addressId" column="address_id" />
     </association>
 
-    <collection property="roleList" ofType="xb.entity.UserRole">
+    <collection property="roleList" ofType="xb.common.entity.UserRole">
       <id property="idUserRole" column="id_user_role"/>
       <result property="roleName" column="role_name" />
     </collection>
@@ -45,15 +45,15 @@
     </discriminator>
   </resultMap>
 
-  <resultMap id="type1" type="xb.dto.UserDTO" extends="complexResultMap"/>
+  <resultMap id="type1" type="xb.common.dto.UserDTO" extends="complexResultMap"/>
 
-  <resultMap id="type2" type="xb.dto.UserDTO">
+  <resultMap id="type2" type="xb.common.dto.UserDTO">
     <id property="idUser" column="id_user"/>
   </resultMap>
 <!--
   批量新增
 -->
-  <insert id="insertBatch" parameterType="xb.entity.User">
+  <insert id="insertBatch" parameterType="xb.common.entity.User">
     insert into user (id_user, name, birthday) values
     <foreach item="item" collection="userList" separator=",">
       (#{item.idUser}, #{item.name}, #{item.birthday})
@@ -63,7 +63,7 @@
 <!--
   批量删除
 -->
-  <insert id="deleteBatch" parameterType="xb.entity.User">
+  <insert id="deleteBatch" parameterType="xb.common.entity.User">
     delete from user
     where id_user in
     <foreach item="item" collection="userList" separator="," open="(" close=")">
@@ -74,7 +74,7 @@
 <!--
   批量查找
 -->
-  <select id="selectBatchById" resultType="xb.entity.User">
+  <select id="selectBatchById" resultType="xb.common.entity.User">
     select * from user
     where id_user in
     <foreach item="item" collection="userList" separator="," open="(" close=")">
@@ -85,10 +85,10 @@
 <!--
 #和$的区别
 -->
-  <select id="sharpSelect" resultType="xb.dto.UserDTO">
+  <select id="sharpSelect" resultType="xb.common.dto.UserDTO">
     select * from user where id_user = #{idUser}
   </select>
-  <select id="dollorSelect" resultType="xb.dto.UserDTO">
+  <select id="dollorSelect" resultType="xb.common.dto.UserDTO">
     select * from user where id_user = '${idUser}'
   </select>
 
@@ -105,7 +105,7 @@
 <!--
 动态语言查询
 -->
-  <select id="ifTest" resultMap="BaseResultMap" parameterType="xb.dto.UserRequest">
+  <select id="ifTest" resultMap="BaseResultMap" parameterType="xb.common.dto.UserRequest">
     select * from user
     where 1 = 1
     <if test="id != null">
@@ -125,7 +125,7 @@
 <!--
 mybatis有命名匹配机制，可以驼峰自动转换
 -->
-  <select id="autoMappingTest" parameterType="xb.entity.User" resultMap="UserRelation">
+  <select id="autoMappingTest" parameterType="xb.common.entity.User" resultMap="UserRelation">
     select
            user.name,
            user.mobile_phone
@@ -150,16 +150,16 @@ mybatis有命名匹配机制，可以驼峰自动转换
 <!--
 分页查询测试
 -->
-  <select id="selectAllPaged" resultType="xb.dto.UserDTO">
+  <select id="selectAllPaged" resultType="xb.common.dto.UserDTO">
     select * from user
   </select>
 
-  <resultMap id="testMap" type="xb.dto.UserDTO">
+  <resultMap id="testMap" type="xb.common.dto.UserDTO">
     <result property="name" column="name"/>
-    <collection property="userList" ofType="xb.entity.User">
+    <collection property="userList" ofType="xb.common.entity.User">
       <result property="name" column="subName" />
     </collection>
-    <collection property="roleList" ofType="xb.entity.UserRole">
+    <collection property="roleList" ofType="xb.common.entity.UserRole">
       <result property="roleName" column="role_name" />
     </collection>
   </resultMap>

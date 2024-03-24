@@ -1,10 +1,10 @@
 package xb.persistence.transaction;
 
-import xb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+import xb.common.entity.User;
 import xb.persistence.mybatis.dao.UserMapper;
 
 import java.util.List;
