@@ -1,3 +1,3 @@
 # Best-Practice
-Spring-Cloud-Netflix
+best practice
 
