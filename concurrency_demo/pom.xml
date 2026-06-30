@@ -12,6 +12,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
             <groupId>xb</groupId>
             <artifactId>common_facade</artifactId>
             <version>0.0.1</version>

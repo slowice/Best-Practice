@@ -2,14 +2,12 @@ package xb.common;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 import xb.common.utils.DateHelper;
 
 import java.text.ParseException;
 import java.time.LocalDate;
 import java.util.Date;
 
-@SpringBootTest
 @Slf4j
 public class DateHelperTests {
 

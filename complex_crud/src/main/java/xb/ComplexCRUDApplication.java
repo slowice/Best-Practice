@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * 一个复杂的CRUD
  */
 @SpringBootApplication
-@EntityScan(basePackages = "xb.entity")
+@EntityScan(basePackages = {"xb.entity", "xb.common.entity"})
 //开启声明式事务管理
 @EnableTransactionManagement
 //public class ComplexCRUDApplication extends SpringBootServletInitializer {
