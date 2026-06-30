@@ -2,12 +2,9 @@ package xb.crud;
 
 
 import io.swagger.annotations.ApiOperation;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.multipart.MultipartFile;
 import xb.common.entity.User;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
@@ -17,8 +14,6 @@ import java.util.List;
 
 @RestController
 public class UserController {
-    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
-
     static class OOMObject{
     }
     private static final List<OOMObject> testOOMMap = new ArrayList<>();
@@ -26,8 +21,11 @@ public class UserController {
     @Value("${spring.application.name}")
     private String applicationName;
 
-    @Autowired
-    UserService userService;
+    private final UserService userService;
+
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
 
     // 健康检查
     @GetMapping("/healthcheck")
@@ -65,8 +63,7 @@ public class UserController {
      // 查询
     @GetMapping("/crud_query")
     public String query(@RequestParam String idUser){
-        String name = userService.query(idUser);
-        return name;
+        return userService.query(idUser);
     }
 
     // 文件上传

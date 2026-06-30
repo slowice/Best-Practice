@@ -11,6 +11,9 @@ spring:
   application:
     name: complex_crud
 
+complex-crud:
+  persistence: jpa
+
 logging:
   config: classpath:logback-complex.xml
 server:

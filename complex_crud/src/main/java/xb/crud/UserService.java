@@ -15,6 +15,5 @@ public interface UserService {
     void update(User user);
     String query(String userId);
     String fileUpload(String userId, MultipartFile file);
-
     String fileDownload(String fileId, HttpServletResponse response) throws IOException;
 }

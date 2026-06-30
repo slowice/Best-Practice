@@ -6,8 +6,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.web.multipart.MultipartFile;
 import xb.common.entity.User;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import xb.crud.store.UserStore;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
@@ -24,35 +24,37 @@ import static java.nio.file.StandardOpenOption.CREATE;
 
 @Service
 public class UserServiceImpl implements UserService {
-    @Autowired
-    UserRepository userRepository;
+    private final UserStore userStore;
+    private final ApplicationContext ctx;
 
-    @Autowired
-    ApplicationContext ctx;
+    public UserServiceImpl(UserStore userStore, ApplicationContext ctx) {
+        this.userStore = userStore;
+        this.ctx = ctx;
+    }
 
     @Override
     public void add(User user) {
-        userRepository.save(user);
+        userStore.save(user);
     }
 
     @Override
     public void addBatch(List<User> userList) {
-        userRepository.saveAll(userList);
+        userStore.saveAll(userList);
     }
 
     @Override
     public void delete(String userId) {
-        userRepository.deleteById(userId);
+        userStore.deleteById(userId);
     }
 
     @Override
     public void update(User user) {
-        userRepository.save(user);
+        userStore.save(user);
     }
 
     @Override
     public String query(String userId) {
-        Optional<User> userOpt = userRepository.findById(userId);
+        Optional<User> userOpt = userStore.findById(userId);
         String name = userOpt.map(user -> user.getName()).orElse("查无此人");
         System.out.println(name);
         return name;
