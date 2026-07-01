@@ -129,6 +129,7 @@
                 <module>gateway_demo</module>
                 <module>exception_handler_demo</module>
                 <module>nacos</module>
+                <module>ai_chat</module>
             </modules>
         </profile>
         <profile>
@@ -151,6 +152,15 @@
                 <module>complex_crud</module>
                 <module>exception_handler_demo</module>
                 <module>front_end_study</module>
+                <module>ai_chat</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>ai</id>
+            <modules>
+                <module>common_facade</module>
+                <module>common_utils</module>
+                <module>ai_chat</module>
             </modules>
         </profile>
         <profile>
